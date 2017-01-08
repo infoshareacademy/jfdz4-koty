@@ -10,9 +10,10 @@ body {
 
 .logo  {
     text-align: center;
+    font-variant: small-caps;
 }
 
-.linked {
+.linkedin {
     float: left;
     width: 88px;
     height: 88px;
@@ -31,7 +32,7 @@ body {
 }
 
 /* czy to w ogóle jest dobrze zrobione? */
-.linkb {
+.BlackLinkDiv {
     color: black;
     display: block;
     width: 88px;
@@ -40,7 +41,7 @@ body {
     padding-bottom: 10px;
 }
 
-.linkw {
+.WhiteLinkDiv {
     color: white;
     display: block;
     width: 88px;
@@ -70,4 +71,13 @@ body {
 
 .SocialLinkText {
     vertical-align: sub;
+}
+
+.marginbottom {
+    margin-bottom: 90px;
+}
+
+.DivClearBoth {
+    clear: both;
+    margin-bottom: 90px;
 }
