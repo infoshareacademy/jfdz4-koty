@@ -1,0 +1,78 @@
+.lefttopbox, .righttopbox, .rightbotbox, .leftbotbox {
+    width: 50%;
+    opacity: 1;
+    float: left;
+    transition: background-color 1s, opacity 1s;
+    box-sizing: border-box;
+    border-radius: 50px;
+    height: 50%
+}
+.main {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-image: url("Tlo.jpg");
+    border-radius: 50px;
+    box-shadow:3px 3px 6px black;
+}
+.clear {
+    clear: left;
+}
+
+.righttopbox:hover, .leftbotbox:hover, .rightbotbox:hover, .lefttopbox:hover   {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50px;
+}
+
+.righttopbox:hover .red, .leftbotbox:hover .red, .rightbotbox:hover .red, .lefttopbox:hover .red  {
+    opacity: 0.9;
+    }
+
+h3, h2, h1{
+    text-align: center;
+    font-family: Century;
+    font-weight: 900;
+    background-image: url("Korek.jpg");
+    border-radius: 50px;
+    width: 400px;
+    margin: 0 auto;
+    text-shadow:0 2px 0 #FFF, 0 3px 0 #AAA, 0 3px 4px #AAA;
+    box-shadow:3px 3px 6px black;
+}
+
+.szklo {
+    background-image: url("szyjka.jpg");
+    width: 250px;
+    border-radius: 5px;
+}
+
+h3{
+    background-image: none;
+    font-family: Garuda;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+p, a{
+    text-align: center;
+    font-family: "Open Sans";
+    transition: color 1s;
+    font-weight: 200;
+    text-decoration: none;
+    color: gray;
+}
+
+p:hover, a:hover {
+    color: brown;
+    font-weight: 700;
+}
+
+.red {
+    opacity: 0.1;
+    margin: 10px;
+    padding: 2px;
+    border: 2px solid #555;
+    background-color: #f2f2f2;
+    font-size: 90%;
+    border-radius: 15px;
+}
