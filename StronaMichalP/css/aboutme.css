@@ -1,5 +1,4 @@
 body {
-    /*background-color: rgb(210,222,227);*/
     font-family: 'Lato', sans-serif;
     font-size: 1em;
 }
@@ -11,6 +10,15 @@ body {
 .logo  {
     text-align: center;
     font-variant: small-caps;
+    }
+
+.fotodomek {
+    width: 100%;
+}
+
+.fotojawtram {
+    float: left;
+    margin: 5px;
 }
 
 .linkedin {
@@ -18,8 +26,12 @@ body {
     width: 88px;
     height: 88px;
     background-color: white;
-    margin-right: 10px;
+    margin-right: 4px;
     text-align: center;
+}
+
+.font10 {
+    font-size: 10px;
 }
 
 .github {
@@ -27,11 +39,10 @@ body {
     width: 88px;
     height: 88px;
     background-color: #000000;
-    margin-left: 10px;
+    margin-left: 4px;
     text-align: center;
 }
 
-/* czy to w ogóle jest dobrze zrobione? */
 .BlackLinkDiv {
     color: black;
     display: block;
@@ -39,6 +50,10 @@ body {
     height: 88px;
     text-decoration: none;
     padding-bottom: 10px;
+}
+
+.BlackLinkDiv:hover{
+    color: #5f9ea0;
 }
 
 .WhiteLinkDiv {
@@ -50,12 +65,16 @@ body {
     margin-bottom: 10px;
 }
 
+.WhiteLinkDiv:hover {
+    color: #5f9ea0;
+}
+
 .linkblack {
     color: black;
 }
 
 .listalinkow {
-    list-style-type: circle
+    list-style-type: none;
 }
 
 .listaprojektow {
@@ -74,10 +93,36 @@ body {
 }
 
 .marginbottom {
-    margin-bottom: 90px;
+    margin-bottom: 88px;
 }
 
+.margintop {
+    margin-top: 44px;
+}
 .DivClearBoth {
     clear: both;
-    margin-bottom: 90px;
+    margin-bottom: 88px;
+}
+
+.menuOver {
+    overflow: auto;
+    display: block;
+   }
+
+.menuHorizont {
+    float: left;
+    margin: 1px;
+    background-color: black;
+    }
+
+.menuHorizont:hover {
+    background-color: #5f9ea0;
+}
+
+.block {
+    display: block;
+    color: white;
+    text-align: center;
+    width: 88px;
+    padding: 22px;
 }
