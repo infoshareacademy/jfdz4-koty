@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .borderspace {
     border: 1px solid black;
     margin-top: 200px;
@@ -5,7 +9,7 @@
 
 
 .btn {
-    text: white;
+    color: white;
     border: 4px solid black;
     font-family: inherit;
     font-size: inherit;
@@ -23,7 +27,7 @@
 
 .btn:hover {
     background-color:white;
-    text:black;
+    color:black;
 }
 
 .navigation {
@@ -47,11 +51,18 @@
 }
 
 .facebook {
-    position: fixed;
     width: 100px;
-    height: 50px;
+    height: 40px;
+    position: fixed;
     bottom: 0;
     right: 0;
     color: white;
     background-color: blue;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-family: Cabin;
+    overflow: auto;
 }
