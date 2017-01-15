@@ -1,7 +1,3 @@
-h2 {
-    float: left;
-}
-
 .btn {
     border: 4px solid black;
     font-family: inherit;
@@ -13,4 +9,6 @@ h2 {
     letter-spacing: 1px;
     font-weight: 700;
     cursor: pointer;
+    float: left
+
 }
