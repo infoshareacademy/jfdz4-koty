@@ -19,13 +19,15 @@
     float: left;
     background-color: black;
     height: 84px;
-    transition: background-color 2s,color 2s, height 1s;
+    transition: background-color 2s,color 1s, height 1s;
+    width:20%;
+    box-sizing: border-box;
 }
 
 .btn:hover {
     background-color:white;
     color: black;
-    height: 200px;
+    height: 289px;
 }
 
 .navigation {
@@ -60,6 +62,7 @@
 
 .opa {
     opacity: 0;
+    transition: opacity 1.5s;
 }
 
 .btn:hover .opa {
