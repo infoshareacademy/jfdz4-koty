@@ -22,6 +22,7 @@
     transition: background-color 2s,color 1s, height 1s;
     width:20%;
     box-sizing: border-box;
+
 }
 
 .btn:hover {
@@ -41,6 +42,7 @@
     box-sizing: border-box;
     background-color: yellow;
 }
+
 
 .center {
     text-align: center;
