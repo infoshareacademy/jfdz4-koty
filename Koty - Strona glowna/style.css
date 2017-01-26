@@ -1,5 +1,5 @@
 body {
-    background-color: #4dddff;
+    background-color: #21324f;
 }
 
 
@@ -40,6 +40,7 @@ body {
     width: 100%;
     height: 50px;
     box-sizing: border-box;
+    background-color: #4dddff;
     }
 
 .center {
@@ -49,6 +50,11 @@ body {
 .margintop {
     margin-top: 10px;
 }
+
+.searchButton {
+    background-color: black;
+    color: #4dddff;
+    }
 
 .facebook {
     position: fixed;
@@ -61,13 +67,13 @@ body {
 }
 
 .darkbluelight {
-    background-color: #11425c;
+    background-color: #21324f;
     color: #4dddff;
 }
 
 .lightbluedark {
-background-color: #4dddff;
-    color: #11425c;
+background-color: ;
+    color: #21324f;
 }
 
 .foxyblack {
@@ -91,7 +97,7 @@ background-color: #4dddff;
 }
 
 .darkbluewhite {
-    background-color: #11425c;
+    background-color: #21324f;
     color: white;
 }
 
