@@ -5,7 +5,7 @@
 
 
 .btn {
-    text: white;
+    color: white;
     border: 4px solid black;
     font-family: inherit;
     font-size: inherit;
@@ -18,12 +18,17 @@
     cursor: pointer;
     float: left;
     background-color: black;
-    transition: background-color 2s
+    height: 84px;
+    transition: background-color 2s,color 1s, height 0.5s;
+    width:20%;
+    box-sizing: border-box;
+
 }
 
 .btn:hover {
     background-color:white;
-    text:black;
+    color: black;
+    height: 289px;
 }
 
 .navigation {
@@ -37,6 +42,7 @@
     box-sizing: border-box;
     background-color: yellow;
 }
+
 
 .center {
     text-align: center;
@@ -54,4 +60,20 @@
     right: 0;
     color: white;
     background-color: blue;
+}
+
+.opa {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn:hover .opa {
+    opacity: 1;
+}
+
+
+.opa {
+    color: #0d1ad8;
+    align-content: stretch;
+
 }
