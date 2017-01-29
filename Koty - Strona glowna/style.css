@@ -76,7 +76,8 @@
     text-align: center;
     font-style: bold;
     font-family: Lato, sans-serif;
-    color: #3b4482
+    color: #3b4482;
+    white-space: pre-line;
 }
 
 .zajawkanaglowek {
