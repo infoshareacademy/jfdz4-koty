@@ -19,7 +19,7 @@
     float: left;
     background-color: black;
     height: 84px;
-    transition: background-color 2s,color 1s, height 1s;
+    transition: background-color 2s,color 1s, height 0.5s;
     width:20%;
     box-sizing: border-box;
 
@@ -64,9 +64,15 @@
 
 .opa {
     opacity: 0;
-    transition: opacity 1.5s;
+    transition: opacity 2s;
 }
 
 .btn:hover .opa {
     opacity: 1;
+}
+
+
+.opa {
+    color: #0d1ad8;
+    align-content: stretch;
 }
