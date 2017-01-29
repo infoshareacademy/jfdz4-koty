@@ -64,5 +64,17 @@ body {
     background-color: black;
     color: white;
     font-family: Cabin;
+    height: 150px;
     overflow: auto;
+}
+
+.about {
+    background-color: gray;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.photo {
+    width: 10%;
 }
