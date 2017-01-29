@@ -159,3 +159,35 @@ body {
 .zdjeciezajawka {
     width: 100%;
 }
+
+.container {
+    position: relative;
+}
+
+
+.zajawkanaglowek, .zajawkaparagraf {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-style: bold;
+    font-family: Lato, sans-serif;
+    color: #3b4482;
+    white-space: pre-line;
+}
+
+.zajawkanaglowek {
+    font-size: 30px;
+    top: 30%;
+}
+
+.zajawkaparagraf {
+    font-size: 25px;
+    top: 40%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
