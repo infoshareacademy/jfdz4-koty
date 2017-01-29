@@ -3,12 +3,10 @@ body {
     margin: 0px
 }
 
-
 .borderspace {
     border: 1px solid black;
     margin-top: 200px;
 }
-
 
 .btn {
     color: white;
@@ -28,7 +26,6 @@ body {
     transition: background-color 2s,color 1s, height 0.5s;
     width:20%;
     box-sizing: border-box;
-
 }
 
 .btn:hover {
@@ -65,11 +62,16 @@ body {
 .facebook {
     position: fixed;
     width: 100px;
-    height: 40px;
+    height: 30px;
     bottom: 0;
     right: 0;
-    color: white;
-    background-color: blue;
+    background-image: url("facebook.jpg");
+    background-size: cover;
+    transition: 1s;
+}
+
+.facebook:hover {
+    height: 70px;
 }
 
 .darkbluelight {
@@ -78,7 +80,7 @@ body {
 }
 
 .lightbluedark {
-background-color: ;
+    background-color: ;
     color: #21324f;
 }
 
@@ -146,5 +148,5 @@ background-color: ;
 }
 
 .photo {
-    width: 10%;
+    width: 20%;
 }
