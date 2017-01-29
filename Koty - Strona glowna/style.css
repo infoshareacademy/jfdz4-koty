@@ -49,7 +49,7 @@ body {
     width: 100%;
     height: 50px;
     box-sizing: border-box;
-    background-color: #4dddff;
+    background-color: #50a0d1;
     }
 
 .center {
@@ -61,8 +61,8 @@ body {
 }
 
 .searchButton {
-    background-color: black;
-    color: #4dddff;
+    width: 24px;
+    height: 24px;
     }
 
 .facebook {
