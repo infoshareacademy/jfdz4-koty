@@ -1,3 +1,8 @@
+body {
+    background-color: #21324f;
+}
+
+
 .borderspace {
     border: 1px solid black;
     margin-top: 200px;
@@ -40,9 +45,8 @@
     width: 100%;
     height: 50px;
     box-sizing: border-box;
-    background-color: yellow;
-}
-
+    background-color: #4dddff;
+    }
 
 .center {
     text-align: center;
@@ -51,6 +55,11 @@
 .margintop {
     margin-top: 10px;
 }
+
+.searchButton {
+    background-color: black;
+    color: #4dddff;
+    }
 
 .facebook {
     position: fixed;
@@ -62,6 +71,48 @@
     background-color: blue;
 }
 
+.darkbluelight {
+    background-color: #21324f;
+    color: #4dddff;
+}
+
+.lightbluedark {
+background-color: ;
+    color: #21324f;
+}
+
+.foxyblack {
+    background-color: #ff7d00;
+    color: black;
+}
+
+.blackfoxy {
+    background-color: black;
+    color: #ff7d00;
+}
+
+.lightblueblack {
+    background-color: #4dddff;
+    color: black;
+}
+
+.blacklightblue {
+    background-color: black;
+    color: #4dddff;
+}
+
+.darkbluewhite {
+    background-color: #21324f;
+    color: white;
+}
+
+.white {
+    background-color: white;
+}
+
+.photoHeader {
+    width: 100%;
+}
 .opa {
     opacity: 0;
     transition: opacity 2s;
