@@ -1,11 +1,16 @@
 body {
-    background-color: #30448f;
+    background-color: #21324f;
+    margin: 0px
 }
-
 
 .borderspace {
     border: 1px solid black;
     margin-top: 200px;
+}
+
+.zajawka {
+    box-sizing: border-box;
+    margin-top: 50px;
 }
 
 
@@ -23,12 +28,16 @@ body {
     cursor: pointer;
     float: left;
     background-color: black;
-    transition: background-color 2s
+    height: 84px;
+    transition: background-color 2s,color 1s, height 0.5s;
+    width:20%;
+    box-sizing: border-box;
 }
 
 .btn:hover {
     background-color:white;
-    text:black;
+    color: black;
+    height: 289px;
 }
 
 .navigation {
@@ -40,8 +49,8 @@ body {
     width: 100%;
     height: 50px;
     box-sizing: border-box;
-    background-color: #4dddff;
-}
+    background-color: #50a0d1;
+    }
 
 .center {
     text-align: center;
@@ -51,12 +60,134 @@ body {
     margin-top: 10px;
 }
 
+.searchButton {
+    width: 24px;
+    height: 24px;
+    }
+
 .facebook {
     position: fixed;
     width: 100px;
-    height: 50px;
+    height: 30px;
     bottom: 0;
     right: 0;
+    background-image: url("facebook.jpg");
+    background-size: cover;
+    transition: 1s;
+}
+
+.facebook:hover {
+    height: 70px;
+}
+
+.darkbluelight {
+    background-color: #21324f;
+    color: #4dddff;
+}
+
+.lightbluedark {
+    background-color: ;
+    color: #21324f;
+}
+
+.foxyblack {
+    background-color: #ff7d00;
+    color: black;
+}
+
+.blackfoxy {
+    background-color: black;
+    color: #ff7d00;
+}
+
+.lightblueblack {
+    background-color: #4dddff;
+    color: black;
+}
+
+.blacklightblue {
+    background-color: black;
+    color: #4dddff;
+}
+
+.darkbluewhite {
+    background-color: #21324f;
     color: white;
-    background-color: blue;
+}
+
+.white {
+    background-color: white;
+}
+
+.photoHeader {
+    width: 100%;
+}
+.opa {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn:hover .opa {
+    opacity: 1;
+}
+
+
+.opa {
+    color: #0d1ad8;
+    align-content: stretch;
+
+}
+.footer {
+    background-color: black;
+    color: white;
+    font-family: Cabin;
+    height: 150px;
+    overflow: auto;
+}
+
+.about {
+    background-color: gray;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.photo {
+    width: 20%;
+}
+.zdjeciezajawka {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+
+.zajawkanaglowek, .zajawkaparagraf {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-style: bold;
+    font-family: Lato, sans-serif;
+    color: #3b4482;
+    white-space: pre-line;
+}
+
+.zajawkanaglowek {
+    font-size: 30px;
+    top: 30%;
+}
+
+.zajawkaparagraf {
+    font-size: 25px;
+    top: 40%;
+}
+
+.imggosia {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
 }
