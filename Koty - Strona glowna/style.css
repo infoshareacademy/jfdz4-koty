@@ -45,12 +45,34 @@ body {
     top:0;
     z-index: 1;
     margin-top: 0;
-    /*margin-left: -10px;*/
     width: 100%;
     height: 78px;
     box-sizing: border-box;
     background-color: #50a0d1;
-    }
+        }
+
+.searchButton {
+    height: 48px;
+    width: 48px;
+}
+
+.placeholderNav {
+    width: 20%;
+    vertical-align: 48%;
+    font-weight: 600;
+    font-size: 110%;
+    border: hidden;
+    color: black;
+    /*margin-top: 10px;   (usunięta klasa .margintop) */
+   }
+
+input::-webkit-input-placeholder {
+    color: #21324F;
+    background-color: #FEEE13;
+    font-weight: 300;
+    border: hidden;
+}
+
 
 .center {
     text-align: center;
@@ -59,11 +81,6 @@ body {
 .margintop {
     margin-top: 10px;
 }
-
-.searchButton {
-    width: 48px;
-    height: 48px;
-    }
 
 .facebook {
     position: fixed;
