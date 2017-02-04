@@ -13,6 +13,10 @@ body {
     margin-top: 50px;
 }
 
+.heightOfButtons {
+    height: 70px;
+}
+
 
 .btn {
     color: white;
@@ -32,6 +36,7 @@ body {
     transition: background-color 2s,color 1s, height 0.5s;
     width:20%;
     box-sizing: border-box;
+    position: static;
 }
 
 .btn:hover {
