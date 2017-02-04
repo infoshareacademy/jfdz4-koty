@@ -45,9 +45,9 @@ body {
     top:0;
     z-index: 1;
     margin-top: 0;
-    margin-left: -10px;
+    /*margin-left: -10px;*/
     width: 100%;
-    height: 50px;
+    height: 78px;
     box-sizing: border-box;
     background-color: #50a0d1;
     }
@@ -61,8 +61,8 @@ body {
 }
 
 .searchButton {
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     }
 
 .facebook {
@@ -82,11 +82,11 @@ body {
 
 .darkbluelight {
     background-color: #21324f;
-    color: #4dddff;
+    color: #50a0d1;
 }
 
 .lightbluedark {
-    background-color: ;
+    background-color: #50a0d1;
     color: #21324f;
 }
 
@@ -101,13 +101,13 @@ body {
 }
 
 .lightblueblack {
-    background-color: #4dddff;
+    background-color: #50a0d1;
     color: black;
 }
 
 .blacklightblue {
     background-color: black;
-    color: #4dddff;
+    color: #50a0d1;
 }
 
 .darkbluewhite {
