@@ -17,7 +17,6 @@ body {
     height: 70px;
 }
 
-
 .btn {
     color: white;
     border: 4px solid black;
@@ -33,21 +32,21 @@ body {
     float: left;
     background-color: black;
     height: 84px;
-    transition: background-color 2s,color 1s, height 0.5s;
-    width:20%;
+    transition: background-color 2s, color 1s, height 0.5s;
+    width: 20%;
     box-sizing: border-box;
     position: static;
 }
 
 .btn:hover {
-    background-color:white;
+    background-color: white;
     color: black;
     height: 289px;
 }
 
 .navigation {
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 1;
     margin-top: 0;
     margin-left: -10px;
@@ -55,7 +54,7 @@ body {
     height: 50px;
     box-sizing: border-box;
     background-color: #50a0d1;
-    }
+}
 
 .center {
     text-align: center;
@@ -68,7 +67,7 @@ body {
 .searchButton {
     width: 24px;
     height: 24px;
-    }
+}
 
 .facebook {
     position: fixed;
@@ -91,7 +90,7 @@ body {
 }
 
 .lightbluedark {
-    background-color: ;
+    background-color:;
     color: #21324f;
 }
 
@@ -127,6 +126,7 @@ body {
 .photoHeader {
     width: 100%;
 }
+
 .opa {
     opacity: 0;
     transition: opacity 2s;
@@ -136,12 +136,12 @@ body {
     opacity: 1;
 }
 
-
 .opa {
     color: #0d1ad8;
     align-content: stretch;
 
 }
+
 .footer {
     background-color: black;
     color: white;
@@ -161,6 +161,7 @@ body {
 .photo {
     width: 20%;
 }
+
 .zdjeciezajawka {
     width: 100%;
 }
@@ -168,7 +169,6 @@ body {
 .container {
     position: relative;
 }
-
 
 .zajawkanaglowek, .zajawkaparagraf {
     position: absolute;
