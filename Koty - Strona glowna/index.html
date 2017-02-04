@@ -5,6 +5,11 @@
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <script>
+        $(document).ready(function() {
+            $("button").addClass("animated bounce");
+        });
+    </script>
 </head>
 <body>
 
@@ -29,14 +34,14 @@
 <!--Koniec Zajawki-->
 
 <!--Funkcje Buttony-->
+<div class="heightOfButtons">
 <div class="borderspace">
-    <button class="btn">Wpisujesz
-        <p class="opa">W wyszukiwarce nazwę produktu którą szukasz, pomożemy Ci znaleźć najlepszą opcje</p></button>
-    <button class="btn">Zamawiasz
-    <p class="opa">Łatwo dodajesz do koszyka aby przejść do zamówienia</p></button>
+    <button class="btn">Wpisujesz<p class="opa">W wyszukiwarce nazwę produktu którą szukasz, pomożemy Ci znaleźć najlepszą opcje</p></button>
+    <button class="btn">Zamawiasz<p class="opa"> Łatwo dodajesz do koszyka aby przejść do zamówienia</p></button>
     <button class="btn">Płacisz<p class="opa">Interesuje Cię płatność kartą? Może telefonem dla nas to żaden problem</p></button>
     <button class="btn">Odbierasz<p class="opa"> tam gdzie Ci wygodnie! Możemy przywieźć Ci produkt do domu lub odbierz go samemu
     </p></button>
+</div>
 </div>
 <!--Koniec Funkcje Buttony-->
 
@@ -46,7 +51,7 @@
         Chcesz otrzymywać newsletter z najciekawszymi ofertami? <br> Podaj swój e-mail:
         <br>
         <br>
-        e-mail: <input type="text" name="adres e-mail" value="jan.kowalski@adres.pl">
+        e-mail: <input type="text" name="adres e-mail" value="Tutaj wpisz swój e-mail">
         <br>
         <br>
     </form>
