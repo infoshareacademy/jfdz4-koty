@@ -85,16 +85,15 @@ input::-webkit-input-placeholder {
 .facebook {
     position: fixed;
     width: 100px;
-    height: 30px;
-    bottom: 0;
-    right: 0;
-    background-image: url("facebook.jpg");
-    background-size: cover;
+    height: 35px;
+    top: 170px;
+    right: -35px;
     transition: 1s;
+    transform: rotate(-90deg);
 }
 
 .facebook:hover {
-    height: 70px;
+    transform: rotate(0deg) translate(-35px,0);
 }
 
 .darkbluelight {
@@ -162,16 +161,46 @@ input::-webkit-input-placeholder {
     overflow: auto;
 }
 
+.headabout{
+    font-family: Cabin;
+    height: 350px;
+    background-color: #443121;
+}
 .about {
-    background-color: gray;
     display: flex;
-    height: 200px;
     justify-content: space-around;
     text-align: center;
+}
+.textabout {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+h2.textabout {
+    font-weight: 900;
+    font-size: 34px;
+}
+.about p {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .photo {
     width: 20%;
+}
+.photoabout:hover {
+    opacity: 1;
+    border: solid #3b4482;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.photoabout {
+    border: solid white;
+    border-radius: 110%;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+    opacity: 0.6;
+    transition: 1s;
 }
 .zdjeciezajawka {
     width: 100%;
