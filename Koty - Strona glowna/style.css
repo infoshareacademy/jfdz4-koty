@@ -162,28 +162,25 @@ input::-webkit-input-placeholder {
 
 }
 .footer {
+    text-align: center;
     background-color: black;
     color: white;
     font-family: Cabin;
-    height: 150px;
     overflow: auto;
 }
 
 .headabout{
     font-family: Cabin;
-    height: 350px;
     background-color: #443121;
 }
 .about {
-    display: flex;
-    justify-content: space-around;
     text-align: center;
 }
 .textabout {
     color: white;
     text-align: center;
-    margin-bottom: 20px;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
+    padding: 15px;
 }
 h2.textabout {
     font-weight: 900;
@@ -191,15 +188,12 @@ h2.textabout {
 }
 .about p {
     color: white;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.photo {
-    width: 20%;
-}
 .photoabout:hover {
     opacity: 1;
-    border: solid #3b4482;
+    border: solid #50a0d1;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
@@ -209,6 +203,7 @@ h2.textabout {
     box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
     opacity: 0.6;
     transition: 1s;
+    margin-bottom: 15px;
 }
 .zdjeciezajawka {
     width: 100%;
@@ -224,7 +219,7 @@ h2.textabout {
     left: 0;
     width: 100%;
     text-align: center;
-    font-style: bold;
+    font-style: normal;
     font-family: Lato, sans-serif;
     color: #3b4482;
     white-space: pre-line;
@@ -245,3 +240,23 @@ h2.textabout {
     height: auto;
     opacity: 0.3;
 }
+.footer .about {
+    margin-top: 2%;
+    text-align: left;
+}
+
+.imgfooter {
+    max-width: 100%;
+    width: 50px;
+    margin-left: 10%;
+}
+
+.footer ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+.footer li{
+    padding: 10px;
+}
+
