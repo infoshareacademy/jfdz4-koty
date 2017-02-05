@@ -13,6 +13,9 @@ body {
     margin-top: 50px;
 }
 
+.heightOfButtons {
+    height: 120px;
+}
 
 .btn {
     color: white;
@@ -29,27 +32,27 @@ body {
     float: left;
     background-color: black;
     height: 84px;
-    transition: background-color 2s,color 1s, height 0.5s;
-    width:20%;
+    transition: background-color 2s, color 1s, height 0.5s;
+    width: 20%;
     box-sizing: border-box;
 }
 
 .btn:hover {
-    background-color:white;
+    background-color: white;
     color: black;
     height: 289px;
 }
 
 .navigation {
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 1;
     margin-top: 0;
     width: 100%;
     height: 78px;
     box-sizing: border-box;
     background-color: #50a0d1;
-        }
+    }
 
 .searchButton {
     height: 48px;
@@ -81,6 +84,11 @@ input::-webkit-input-placeholder {
 .margintop {
     margin-top: 10px;
 }
+
+.searchButton {
+    width: 48px;
+    height: 48px;
+    }
 
 .facebook {
     position: fixed;
