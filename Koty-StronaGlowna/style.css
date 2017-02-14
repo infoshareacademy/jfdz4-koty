@@ -219,8 +219,8 @@ h2.textabout {
 .zdjeciezajawka {
     width: 100%;
     height: auto;
-    opacity: 0.9;
-    filter: brightness(40%);
+    /*opacity: 0.95;*/
+    filter: brightness(25%);
 }
 
 .container {
@@ -234,20 +234,21 @@ h2.textabout {
     width: 100%;
     text-align: center;
     font-family: Lato, sans-serif;
-    color: #FEEE13;
     white-space: pre-line;
 }
 
 .zajawkanaglowek {
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 900;
     top: 30%;
+    color: white;
 }
 
 .zajawkaparagraf {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 800;
-    top: 50%;
+    top: 60%;
+    color: white;
 }
 
 .K {
@@ -273,4 +274,9 @@ h2.textabout {
 
  .A {
      font-size: 105%;
+ }
+
+ .oTytulowe {
+     font-weight: 800;
+     color: #FF7D00;
  }
