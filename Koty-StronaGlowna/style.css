@@ -3,7 +3,12 @@ body {
     margin: 0px
 }
 
-.borderspace {
+.borderspace70 {
+    border: 1px solid black;
+    margin-top: 70px;
+    }
+
+.borderspace200 {
     border: 1px solid black;
     margin-top: 200px;
 }
@@ -51,7 +56,7 @@ body {
     width: 100%;
     height: 78px;
     box-sizing: border-box;
-    background-color: #50a0d1;
+    background-color: #21324f;
     }
 
 .searchButton {
@@ -62,17 +67,15 @@ body {
 .placeholderNav {
     width: 20%;
     vertical-align: 48%;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 110%;
     border: hidden;
     color: black;
-    /*margin-top: 10px;   (usunięta klasa .margintop) */
-   }
+    }
 
 input::-webkit-input-placeholder {
     color: #21324F;
-    background-color: #FEEE13;
-    font-weight: 300;
+    font-weight: 600;
     border: hidden;
 }
 
@@ -104,6 +107,7 @@ input::-webkit-input-placeholder {
     transform: rotate(0deg) translate(-35px,0);
 }
 
+/*  ------------------- nieużywane klasy do usunięcia ------------------------------ */
 .darkbluelight {
     background-color: #21324f;
     color: #50a0d1;
@@ -119,8 +123,8 @@ input::-webkit-input-placeholder {
     color: black;
 }
 
-.blackfoxy {
-    background-color: black;
+.darkbluefoxy {
+    background-color: #21324F;
     color: #ff7d00;
 }
 
@@ -143,6 +147,7 @@ input::-webkit-input-placeholder {
     background-color: white;
 }
 
+
 .photoHeader {
     width: 100%;
 }
@@ -163,8 +168,9 @@ input::-webkit-input-placeholder {
 }
 .footer {
     background-color: black;
-    color: white;
+    color: #50a0d1;
     font-family: Cabin;
+    font-size: 16px;
     height: 150px;
     overflow: auto;
 }
@@ -172,7 +178,7 @@ input::-webkit-input-placeholder {
 .headabout{
     font-family: Cabin;
     height: 350px;
-    background-color: #443121;
+    background-color: #21324F;
 }
 .about {
     display: flex;
@@ -212,6 +218,9 @@ h2.textabout {
 }
 .zdjeciezajawka {
     width: 100%;
+    height: auto;
+    opacity: 0.9;
+    filter: brightness(40%);
 }
 
 .container {
@@ -224,24 +233,44 @@ h2.textabout {
     left: 0;
     width: 100%;
     text-align: center;
-    font-style: bold;
     font-family: Lato, sans-serif;
-    color: #3b4482;
+    color: #FEEE13;
     white-space: pre-line;
 }
 
 .zajawkanaglowek {
-    font-size: 30px;
+    font-size: 72px;
+    font-weight: 900;
     top: 30%;
 }
 
 .zajawkaparagraf {
-    font-size: 25px;
-    top: 40%;
+    font-size: 45px;
+    font-weight: 800;
+    top: 50%;
 }
 
-.imggosia {
-    width: 100%;
-    height: auto;
-    opacity: 0.3;
+.K {
+    color: #21324F;
 }
+
+.O {
+    color: #FF7D00;
+}
+
+.T{
+    color: white;
+}
+
+.Y {
+     color: #50A0D1;
+ }
+
+ .K, .O, .T, .Y {
+     font-size: 32px;
+     font-weight: 800;
+    }
+
+ .A {
+     font-size: 105%;
+ }
