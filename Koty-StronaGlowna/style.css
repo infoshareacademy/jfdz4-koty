@@ -13,6 +13,9 @@ body {
     margin-top: 50px;
 }
 
+.heightOfButtons {
+    height: 120px;
+}
 
 .btn {
     color: white;
@@ -29,28 +32,50 @@ body {
     float: left;
     background-color: black;
     height: 84px;
-    transition: background-color 2s,color 1s, height 0.5s;
-    width:20%;
+    transition: background-color 2s, color 1s, height 0.5s;
+    width: 20%;
     box-sizing: border-box;
 }
 
 .btn:hover {
-    background-color:white;
+    background-color: white;
     color: black;
     height: 289px;
 }
 
 .navigation {
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 1;
     margin-top: 0;
-    margin-left: -10px;
     width: 100%;
-    height: 50px;
+    height: 78px;
     box-sizing: border-box;
     background-color: #50a0d1;
     }
+
+.searchButton {
+    height: 48px;
+    width: 48px;
+}
+
+.placeholderNav {
+    width: 20%;
+    vertical-align: 48%;
+    font-weight: 600;
+    font-size: 110%;
+    border: hidden;
+    color: black;
+    /*margin-top: 10px;   (usunięta klasa .margintop) */
+   }
+
+input::-webkit-input-placeholder {
+    color: #21324F;
+    background-color: #FEEE13;
+    font-weight: 300;
+    border: hidden;
+}
+
 
 .center {
     text-align: center;
@@ -61,32 +86,31 @@ body {
 }
 
 .searchButton {
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     }
 
 .facebook {
     position: fixed;
     width: 100px;
-    height: 30px;
-    bottom: 0;
-    right: 0;
-    background-image: url("facebook.jpg");
-    background-size: cover;
+    height: 35px;
+    top: 170px;
+    right: -35px;
     transition: 1s;
+    transform: rotate(-90deg);
 }
 
 .facebook:hover {
-    height: 70px;
+    transform: rotate(0deg) translate(-35px,0);
 }
 
 .darkbluelight {
     background-color: #21324f;
-    color: #4dddff;
+    color: #50a0d1;
 }
 
 .lightbluedark {
-    background-color: ;
+    background-color: #50a0d1;
     color: #21324f;
 }
 
@@ -101,13 +125,13 @@ body {
 }
 
 .lightblueblack {
-    background-color: #4dddff;
+    background-color: #50a0d1;
     color: black;
 }
 
 .blacklightblue {
     background-color: black;
-    color: #4dddff;
+    color: #50a0d1;
 }
 
 .darkbluewhite {
@@ -145,16 +169,46 @@ body {
     overflow: auto;
 }
 
+.headabout{
+    font-family: Cabin;
+    height: 350px;
+    background-color: #443121;
+}
 .about {
-    background-color: gray;
     display: flex;
-    height: 200px;
     justify-content: space-around;
     text-align: center;
+}
+.textabout {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+h2.textabout {
+    font-weight: 900;
+    font-size: 34px;
+}
+.about p {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .photo {
     width: 20%;
+}
+.photoabout:hover {
+    opacity: 1;
+    border: solid #3b4482;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.photoabout {
+    border: solid white;
+    border-radius: 110%;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+    opacity: 0.6;
+    transition: 1s;
 }
 .zdjeciezajawka {
     width: 100%;
