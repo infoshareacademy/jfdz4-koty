@@ -167,11 +167,15 @@ input::-webkit-input-placeholder {
 
 }
 .footer {
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
     color: #50a0d1;
     font-family: Cabin;
     font-size: 16px;
-    height: 150px;
+    height: 100px;
     overflow: auto;
 }
 
@@ -279,4 +283,9 @@ h2.textabout {
  .oTytulowe {
      font-weight: 800;
      color: #FF7D00;
+ }
+
+
+ .aboutIcon {
+     font-size: x-small;
  }
