@@ -200,7 +200,6 @@ body {
 
 
 .buttonForClick {
-    width: 100%;
     background: #1d1f20;
     height: 60px;
     line-height: 60px;
@@ -248,6 +247,7 @@ body {
     position: absolute;
     text-align: center;
     margin-left: 0;
+    width: 26%;
 }
 
 .menu ul {
@@ -311,3 +311,4 @@ li {
     width: 25%;
     float: right;
 }
+
