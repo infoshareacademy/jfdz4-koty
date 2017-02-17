@@ -207,7 +207,7 @@ body {
     margin-left: 5%;
 }
 
-.hamburger {
+.hamburger, .hamburger2, .hamburger3, .hamburger4 {
     background: none;
     /*position: absolute;*/
     top: 0;
@@ -224,7 +224,7 @@ body {
     /*position: absolute;*/
 }
 
-.cross {
+.cross, .cross2, .cross3, .cross4 {
     background: none;
     /*position: absolute;*/
     top: 0;
@@ -240,7 +240,7 @@ body {
     z-index: 10000000000000;
 }
 
-.menu {
+.menu, .menu2 ,.menu3, .menu4 {
     z-index: 10000000000000;
     font-weight: bold;
     font-size: 0.8em;
