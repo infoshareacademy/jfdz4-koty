@@ -11,7 +11,6 @@ body {
 .zajawka {
     box-sizing: border-box;
     margin-top: 50px;
-    margin-bottom: 45px;
 }
 
 .heightOfButtons {
@@ -443,6 +442,14 @@ li {
     }
 
 }
+button {
+    width: 100%;
+}
+
+.backgroundForButtons {
+    padding-top: 45px
+}
+
 
 /*Koniec przyciski*/
 @media screen and (min-width: 541px) and (max-width: 900px) {
@@ -491,7 +498,7 @@ li {
     }
 }
 
-.gradientladny {
+.gradientladny, .backgroundForButtons {
     background-image: linear-gradient(to top, #21324F 0%, #4e4376 100%);
 }
 
