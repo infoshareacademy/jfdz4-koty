@@ -14,7 +14,7 @@ body {
 }
 
 .heightOfButtons {
-    height: 120px;
+    height: 70px;
 }
 
 .btn {
@@ -35,6 +35,7 @@ body {
     transition: background-color 2s, color 1s, height 0.5s;
     width: 20%;
     box-sizing: border-box;
+    position: static;
 }
 
 .btn:hover {
@@ -49,10 +50,10 @@ body {
     z-index: 1;
     margin-top: 0;
     width: 100%;
-    height: 78px;
+    height: 50px;
     box-sizing: border-box;
     background-color: #50a0d1;
-    }
+}
 
 .searchButton {
     height: 48px;
@@ -262,3 +263,119 @@ h2.textabout {
 .leftabout {
     text-align: left !important;
 }
+
+
+
+.buttonForClick {
+    background: #1d1f20;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 5%;
+}
+
+.hamburger, .hamburger2, .hamburger3, .hamburger4 {
+    background: none;
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: #fff;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+    /*position: absolute;*/
+}
+
+.cross, .cross2, .cross3, .cross4 {
+    background: none;
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: #fff;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+}
+
+.menu, .menu2 ,.menu3, .menu4 {
+    z-index: 10000000000000;
+    font-weight: bold;
+    font-size: 0.8em;
+    background: #131313;
+    position: absolute;
+    text-align: center;
+    margin-left: 0;
+    width: 26%;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.menu li {
+    display: block;
+    padding: 15px 0 15px 0;
+    border-bottom: #1d1f20 1px solid;
+}
+
+.menu li:hover {
+    display: block;
+    background: #181818;
+    padding: 15px 0 15px 0;
+    border-bottom: #1d1f20 1px solid;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin: 0px;
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.glyphicon-home {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin: 0 auto;
+}
+
+li {
+    color: white;
+    /*width: 25%;*/
+}
+
+.iconForButtons {
+    font-size: 45px;
+}
+
+.containerForButtons {
+    width: 25%;
+    float: right;
+}
+
