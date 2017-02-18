@@ -1,6 +1,6 @@
 body {
     background-color: #21324f;
-    margin: 0px
+    margin: 0px;
 }
 
 .borderspace {
@@ -452,22 +452,7 @@ button {
 
 
 /*Koniec przyciski*/
-@media screen and (min-width: 541px) and (max-width: 900px) {
 
-    .zajawkanaglowek {
-        font-size: 44px;
-        font-weight: 700;
-        top: 15%;
-        color: white;
-    }
-
-    .zajawkaparagraf {
-        font-size: 28px;
-        font-weight: 600;
-        top: 35%;
-        color: white;
-    }
-}
 .containernewsletter {
     padding: 20px;
     font-size: x-large;
@@ -481,22 +466,58 @@ button {
     text-align: center;
 }
 
-@media screen and (max-width: 540px) {
+
+@media screen and (max-width: 767px) {
 
     .zajawkanaglowek {
-        font-size: 24px;
+        font-size: 27px;
         font-weight: 500;
-        top: 14%;
+        top: 18%;
         color: white;
     }
 
     .zajawkaparagraf {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 400;
-        top: 22%;
+        top: 36%;
         color: white;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .zajawkanaglowek {
+        font-size: 44px;
+        font-weight: 700;
+        top: 18%;
+        color: white;
+    }
+
+    .zajawkaparagraf {
+        font-size: 33px;
+        font-weight: 600;
+        top: 54%;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .zajawkanaglowek {
+        font-size: 48px;
+        font-weight: 700;
+        top: 21%;
+        color: white;
+    }
+
+    .zajawkaparagraf {
+        font-size: 32px;
+        font-weight: 600;
+        top: 63%;
+        color: white;
+    }
+}
+
 
 .gradientladny, .backgroundForButtons {
     background-image: linear-gradient(to top, #21324F 0%, #4e4376 100%);
