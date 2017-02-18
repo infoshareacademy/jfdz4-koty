@@ -456,6 +456,18 @@ li {
         color: white;
     }
 }
+.containernewsletter {
+    padding: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.containergame {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
 
 @media screen and (max-width: 540px) {
 
