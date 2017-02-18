@@ -52,8 +52,8 @@ body {
     width: 100%;
     height: 50px;
     box-sizing: border-box;
-    background-color: #50a0d1;
-}
+    background-color: #21324f;
+    }
 
 .searchButton {
     height: 48px;
@@ -63,17 +63,15 @@ body {
 .placeholderNav {
     width: 20%;
     vertical-align: 48%;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 110%;
     border: hidden;
     color: black;
-    /*margin-top: 10px;   (usunięta klasa .margintop) */
-   }
+    }
 
 input::-webkit-input-placeholder {
     color: #21324F;
-    background-color: #FEEE13;
-    font-weight: 300;
+    font-weight: 600;
     border: hidden;
 }
 
@@ -105,6 +103,7 @@ input::-webkit-input-placeholder {
     transform: rotate(0deg) translate(-35px,0);
 }
 
+/*  ------------------- nieużywane klasy do usunięcia ------------------------------ */
 .darkbluelight {
     background-color: #21324f;
     color: #50a0d1;
@@ -120,8 +119,8 @@ input::-webkit-input-placeholder {
     color: black;
 }
 
-.blackfoxy {
-    background-color: black;
+.darkbluefoxy {
+    background-color: #21324F;
     color: #ff7d00;
 }
 
@@ -143,6 +142,7 @@ input::-webkit-input-placeholder {
 .white {
     background-color: white;
 }
+
 
 .photoHeader {
     width: 100%;
@@ -208,6 +208,9 @@ h2.textabout {
 }
 .zdjeciezajawka {
     width: 100%;
+    height: auto;
+    /*opacity: 0.95;*/
+    filter: brightness(25%);
 }
 
 .container {
@@ -220,20 +223,22 @@ h2.textabout {
     left: 0;
     width: 100%;
     text-align: center;
-    font-style: normal;
     font-family: Lato, sans-serif;
-    color: #3b4482;
     white-space: pre-line;
 }
 
 .zajawkanaglowek {
-    font-size: 30px;
+    font-size: 64px;
+    font-weight: 900;
     top: 30%;
+    color: white;
 }
 
 .zajawkaparagraf {
-    font-size: 25px;
-    top: 40%;
+    font-size: 40px;
+    font-weight: 800;
+    top: 60%;
+    color: white;
 }
 
 .imggosia {
@@ -241,6 +246,41 @@ h2.textabout {
     height: auto;
     opacity: 0.3;
 }
+
+.K {
+    color: #21324F;
+}
+
+.O {
+    color: #FF7D00;
+}
+
+.T{
+    color: white;
+}
+
+.Y {
+     color: #50A0D1;
+ }
+
+ .K, .O, .T, .Y {
+     font-size: 32px;
+     font-weight: 800;
+    }
+
+ .A {
+     font-size: 105%;
+ }
+
+ .oTytulowe {
+     font-weight: 800;
+     color: #FF7D00;
+ }
+
+
+ .aboutIcon {
+     font-size: x-small;
+ }
 .footer .about {
     margin-top: 2%;
     text-align: center;
