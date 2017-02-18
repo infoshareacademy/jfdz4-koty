@@ -242,21 +242,23 @@ h2.textabout {
 }
 .footer .about {
     margin-top: 2%;
-    text-align: left;
+    text-align: center;
 }
 
 .imgfooter {
     max-width: 100%;
     width: 50px;
-    margin-left: 10%;
 }
 
 .footer ul {
-    list-style-type: square;
+    list-style-type: none;
     padding: 0;
 }
 
-.footer li{
+.footer li {
     padding: 10px;
 }
 
+.leftabout {
+    text-align: left !important;
+}
