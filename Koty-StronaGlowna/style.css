@@ -5,12 +5,13 @@ body {
 
 .borderspace {
     border: 1px solid black;
-    margin-top: 200px;
+    /*margin-top: 200px;*/
 }
 
 .zajawka {
     box-sizing: border-box;
     margin-top: 50px;
+    margin-bottom: 45px;
 }
 
 .heightOfButtons {
@@ -359,7 +360,7 @@ h2.textabout {
     margin-right: 5%;
 }
 
-.menu ul {
+.menu ul, .menu2 ul, .menu3 ul, .menu4 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
