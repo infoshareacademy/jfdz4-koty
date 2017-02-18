@@ -419,3 +419,15 @@ li {
     float: right;
 }
 
+.containernewsletter {
+    padding: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.containergame {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
