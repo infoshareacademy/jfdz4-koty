@@ -19,30 +19,30 @@ body {
 }
 
 /*.btn {*/
-    /*color: white;*/
-    /*border: 4px solid black;*/
-    /*font-family: inherit;*/
-    /*font-size: inherit;*/
-    /*padding: 26px 80px;*/
-    /*display: inline-block;*/
-    /*margin: 15px 30px;*/
-    /*text-transform: uppercase;*/
-    /*letter-spacing: 1px;*/
-    /*font-weight: 700;*/
-    /*cursor: pointer;*/
-    /*float: left;*/
-    /*background-color: black;*/
-    /*height: 84px;*/
-    /*transition: background-color 2s, color 1s, height 0.5s;*/
-    /*width: 20%;*/
-    /*box-sizing: border-box;*/
-    /*position: static;*/
+/*color: white;*/
+/*border: 4px solid black;*/
+/*font-family: inherit;*/
+/*font-size: inherit;*/
+/*padding: 26px 80px;*/
+/*display: inline-block;*/
+/*margin: 15px 30px;*/
+/*text-transform: uppercase;*/
+/*letter-spacing: 1px;*/
+/*font-weight: 700;*/
+/*cursor: pointer;*/
+/*float: left;*/
+/*background-color: black;*/
+/*height: 84px;*/
+/*transition: background-color 2s, color 1s, height 0.5s;*/
+/*width: 20%;*/
+/*box-sizing: border-box;*/
+/*position: static;*/
 /*}*/
 
 /*.btn:hover {*/
-    /*background-color: white;*/
-    /*color: black;*/
-    /*height: 289px;*/
+/*background-color: white;*/
+/*color: black;*/
+/*height: 289px;*/
 /*}*/
 
 .navigation {
@@ -54,7 +54,7 @@ body {
     height: 80px;
     box-sizing: border-box;
     background-color: #21324f;
-    }
+}
 
 .searchButton {
     height: 48px;
@@ -68,14 +68,13 @@ body {
     font-size: 110%;
     border: hidden;
     color: black;
-    }
+}
 
 input::-webkit-input-placeholder {
     color: #21324F;
     font-weight: 600;
     border: hidden;
 }
-
 
 .center {
     text-align: center;
@@ -88,7 +87,7 @@ input::-webkit-input-placeholder {
 .searchButton {
     width: 48px;
     height: 48px;
-    }
+}
 
 .facebook {
     position: fixed;
@@ -101,7 +100,7 @@ input::-webkit-input-placeholder {
 }
 
 .facebook:hover {
-    transform: rotate(0deg) translate(-35px,0);
+    transform: rotate(0deg) translate(-35px, 0);
 }
 
 /*  ------------------- nieużywane klasy do usunięcia ------------------------------ */
@@ -144,10 +143,10 @@ input::-webkit-input-placeholder {
     background-color: white;
 }
 
-
 .photoHeader {
     width: 100%;
 }
+
 .opa {
     opacity: 0;
     transition: opacity 2s;
@@ -157,12 +156,12 @@ input::-webkit-input-placeholder {
     opacity: 1;
 }
 
-
 .opa {
     color: #0d1ad8;
     align-content: stretch;
 
 }
+
 .footer {
     text-align: center;
     background-color: black;
@@ -171,23 +170,27 @@ input::-webkit-input-placeholder {
     overflow: auto;
 }
 
-.headabout{
+.headabout {
     font-family: Cabin;
     background-color: #443121;
 }
+
 .about {
     text-align: center;
 }
+
 .textabout {
     color: white;
     text-align: center;
     text-shadow: black 0.1em 0.1em 0.2em;
     padding: 15px;
 }
+
 h2.textabout {
     font-weight: 900;
     font-size: 34px;
 }
+
 .about p {
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -196,17 +199,18 @@ h2.textabout {
 .photoabout:hover {
     opacity: 1;
     border: solid #50a0d1;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .photoabout {
     border: solid white;
     border-radius: 110%;
-    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
     opacity: 0.6;
     transition: 1s;
     margin-bottom: 15px;
 }
+
 .zdjeciezajawka {
     width: 100%;
     height: auto;
@@ -217,7 +221,6 @@ h2.textabout {
 .container {
     position: relative;
 }
-
 
 .zajawkanaglowek, .zajawkaparagraf {
     position: absolute;
@@ -256,32 +259,32 @@ h2.textabout {
     color: #FF7D00;
 }
 
-.T{
+.T {
     color: white;
 }
 
 .Y {
-     color: #50A0D1;
- }
+    color: #50A0D1;
+}
 
- .K, .O, .T, .Y {
-     font-size: 32px;
-     font-weight: 800;
-    }
+.K, .O, .T, .Y {
+    font-size: 32px;
+    font-weight: 800;
+}
 
- .A {
-     font-size: 105%;
- }
+.A {
+    font-size: 105%;
+}
 
- .oTytulowe {
-     font-weight: 800;
-     color: #FF7D00;
- }
+.oTytulowe {
+    font-weight: 800;
+    color: #FF7D00;
+}
 
+.aboutIcon {
+    font-size: x-small;
+}
 
- .aboutIcon {
-     font-size: x-small;
- }
 .footer .about {
     margin-top: 2%;
     text-align: center;
@@ -348,7 +351,7 @@ h2.textabout {
     z-index: 10000000000000;
 }
 
-.menu, .menu2 ,.menu3, .menu4 {
+.menu, .menu2, .menu3, .menu4 {
     z-index: 10000000000000;
     font-weight: bold;
     font-size: 0.8em;
@@ -423,12 +426,13 @@ li {
 }
 
 @media screen and (max-width: 689px) {
-.DescriptionButton {
-    display: none;
-}
-.buttonForClick {
-    text-align: center;
-}
+    .DescriptionButton {
+        display: none;
+    }
+
+    .buttonForClick {
+        text-align: center;
+    }
 
 }
 
