@@ -323,6 +323,7 @@ h2.textabout {
     outline: none;
     z-index: 10000000000000;
     /*position: absolute;*/
+    height: 63px;
 }
 
 .cross, .cross2, .cross3, .cross4 {
@@ -339,6 +340,7 @@ h2.textabout {
     cursor: pointer;
     outline: none;
     z-index: 10000000000000;
+    height: 63px;
 }
 
 .menu, .menu2, .menu3, .menu4 {
