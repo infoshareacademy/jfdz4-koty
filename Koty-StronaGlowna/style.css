@@ -101,47 +101,7 @@ input::-webkit-input-placeholder {
 }
 
 .facebook:hover {
-    transform: rotate(0deg) translate(-35px,0);
-}
-
-/*  ------------------- nieużywane klasy do usunięcia ------------------------------ */
-.darkbluelight {
-    background-color: #21324f;
-    color: #50a0d1;
-}
-
-.lightbluedark {
-    background-color: #50a0d1;
-    color: #21324f;
-}
-
-.foxyblack {
-    background-color: #ff7d00;
-    color: black;
-}
-
-.darkbluefoxy {
-    background-color: #21324F;
-    color: #ff7d00;
-}
-
-.lightblueblack {
-    background-color: #50a0d1;
-    color: black;
-}
-
-.blacklightblue {
-    background-color: black;
-    color: #50a0d1;
-}
-
-.darkbluewhite {
-    background-color: #21324f;
-    color: white;
-}
-
-.white {
-    background-color: white;
+    transform: rotate(0deg) translate(-35px, 0);
 }
 
 .photoHeader {
@@ -249,8 +209,6 @@ h2.textabout {
     top: 60%;
     color: white;
 }
-
-
 
 .imggosia {
     width: 100%;
@@ -442,6 +400,7 @@ li {
     }
 
 }
+
 button {
     width: 100%;
 }
@@ -449,7 +408,6 @@ button {
 .backgroundForButtons {
     padding-top: 45px
 }
-
 
 /*Koniec przyciski*/
 
@@ -465,7 +423,6 @@ button {
     font-weight: bold;
     text-align: center;
 }
-
 
 @media screen and (max-width: 767px) {
 
@@ -503,7 +460,6 @@ button {
 
 @media screen and (min-width: 992px) {
 
-
     .zajawkanaglowek {
         font-size: 48px;
         font-weight: 700;
@@ -518,7 +474,6 @@ button {
         color: white;
     }
 }
-
 
 .gradientladny, .backgroundForButtons {
     background-image: linear-gradient(-210deg, #21324f, #28524f);
