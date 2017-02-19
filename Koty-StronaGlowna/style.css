@@ -173,7 +173,7 @@ input::-webkit-input-placeholder {
 
 .headabout {
     font-family: Cabin;
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background-color: #21324f;
 }
 
 .about {
@@ -326,7 +326,7 @@ h2.textabout {
 }
 
 .hamburger, .hamburger2, .hamburger3, .hamburger4 {
-    background: none;
+    background: #ff7d00;
     /*position: absolute;*/
     top: 0;
     right: 0;
@@ -520,9 +520,13 @@ button {
 
 
 .gradientladny, .backgroundForButtons {
-    background-image: linear-gradient(to top, #21324F 0%, #4e4376 100%);
+    background-color: #21324f;
 }
 
 .searchButton:hover {
     transform: rotate(15deg)
+}
+
+.width10 {
+    width: 10%;
 }
