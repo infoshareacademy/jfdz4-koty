@@ -173,7 +173,7 @@ input::-webkit-input-placeholder {
 
 .headabout {
     font-family: Cabin;
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background-color: #21324f;
 }
 
 .about {
@@ -520,7 +520,7 @@ button {
 
 
 .gradientladny, .backgroundForButtons {
-    background-image: linear-gradient(to top, #21324F 0%, #4e4376 100%);
+    background-color: #21324f;
 }
 
 .searchButton:hover {
