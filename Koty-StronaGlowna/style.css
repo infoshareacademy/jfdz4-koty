@@ -210,6 +210,8 @@ h2.textabout {
     color: white;
 }
 
+
+
 .imggosia {
     width: 100%;
     height: auto;
@@ -244,10 +246,6 @@ h2.textabout {
 .oTytulowe {
     font-weight: 800;
     color: #FF7D00;
-}
-
-.aboutIcon {
-    font-size: x-small;
 }
 
 .footer .about {
@@ -369,13 +367,6 @@ h2.textabout {
     color: white;
 }
 
-.glyphicon-home {
-    color: white;
-    font-size: 1.5em;
-    margin-top: 5px;
-    margin: 0 auto;
-}
-
 li {
     color: white;
     /*width: 25%;*/
@@ -413,12 +404,6 @@ button {
 
 .containernewsletter {
     padding: 40px;
-    font-size: x-large;
-    font-weight: bold;
-    text-align: center;
-}
-
-.containergame {
     font-size: x-large;
     font-weight: bold;
     text-align: center;
