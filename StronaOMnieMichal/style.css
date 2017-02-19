@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
 }
 
-.border {
+.ramka {
     border: 4px inset lightgray;
     text-shadow: 1px 1px 1px #888484;
     font-size: 16px;
@@ -18,7 +18,8 @@ h2, h3 {
     font-size: 33px;
     text-shadow: 4px 2px 3px #888484;
 }
-.books {
+
+#image2 {
     background-image: url(https://portfoliokenji.files.wordpress.com/2013/01/5516638-stos-starych-ksiazek-na-bialym-tle.jpg);
     width: 303px;
     height: 300px;
@@ -26,7 +27,8 @@ h2, h3 {
     background-repeat: no-repeat;
     margin: 0 auto;
 }
-#ima.blackboard {
+
+#image3 {
     background-image: url(https://thumbs.dreamstime.com/t/blackboard-chalkboard-white-background-d-45761941.jpg);
     width: 337px;
     height: 300px;
@@ -34,7 +36,8 @@ h2, h3 {
     background-repeat: no-repeat;
     margin: 0 auto;
 }
-.JobsSkillsExperience {
+
+#image4 {
     background-image: url(http://www.theobservatoryschool.wirral.sch.uk/wp-content/uploads/2016/01/work-ex.jpg);
     width: 372px;
     height: 301px;
@@ -43,7 +46,7 @@ h2, h3 {
     margin: 0 auto;
 }
 
-.hobbies {
+#image5 {
     background-image: url(http://www.statenhobbies.com/wp-content/uploads/2015/05/hobbies-words-compiled.jpg);
     width: 372px;
     height: 255px;
@@ -51,7 +54,8 @@ h2, h3 {
     background-repeat: no-repeat;
     margin: 0 auto;
 }
-.iphoneAtWhiteBack {
+
+#image6 {
     background-image: url(https://technotrekk.files.wordpress.com/2014/03/main.jpg);
     width: 392px;
     height: 202px;
