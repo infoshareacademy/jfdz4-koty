@@ -441,14 +441,14 @@ button {
     .zajawkanaglowek {
         font-size: 27px;
         font-weight: 500;
-        top: 18%;
+        top: 15%;
         color: white;
     }
 
     .zajawkaparagraf {
         font-size: 18px;
         font-weight: 400;
-        top: 36%;
+        top: 30%;
         color: white;
     }
 }
