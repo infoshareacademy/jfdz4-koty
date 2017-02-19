@@ -326,7 +326,7 @@ h2.textabout {
 }
 
 .hamburger, .hamburger2, .hamburger3, .hamburger4 {
-    background: none;
+    background: #ff7d00;
     /*position: absolute;*/
     top: 0;
     right: 0;
@@ -454,7 +454,7 @@ button {
 /*Koniec przyciski*/
 
 .containernewsletter {
-    padding: 20px;
+    padding: 40px;
     font-size: x-large;
     font-weight: bold;
     text-align: center;
@@ -503,6 +503,7 @@ button {
 
 @media screen and (min-width: 992px) {
 
+
     .zajawkanaglowek {
         font-size: 48px;
         font-weight: 700;
@@ -525,4 +526,8 @@ button {
 
 .searchButton:hover {
     transform: rotate(15deg)
+}
+
+.width10 {
+    width: 10%;
 }
