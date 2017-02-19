@@ -507,3 +507,8 @@ button {
 .btn-info {
     background-color: black;
 }
+
+.icons {
+    border: 1px solid orange;
+    box-sizing: border-box;
+}
