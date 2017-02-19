@@ -101,11 +101,46 @@ input::-webkit-input-placeholder {
 }
 
 .facebook:hover {
-    transform: rotate(0deg) translate(-35px, 0);
+    transform: rotate(0deg) translate(-35px,0);
 }
 
-.photoHeader {
-    width: 100%;
+.darkbluelight {
+    background-color: #21324f;
+    color: #50a0d1;
+}
+
+.lightbluedark {
+    background-color: #50a0d1;
+    color: #21324f;
+}
+
+.foxyblack {
+    background-color: #ff7d00;
+    color: black;
+}
+
+.darkbluefoxy {
+    background-color: #21324F;
+    color: #ff7d00;
+}
+
+.lightblueblack {
+    background-color: #50a0d1;
+    color: black;
+}
+
+.blacklightblue {
+    background-color: black;
+    color: #50a0d1;
+}
+
+.darkbluewhite {
+    background-color: #21324f;
+    color: white;
+}
+
+.white {
+    background-color: white;
 }
 
 .opa {
@@ -163,7 +198,7 @@ h2.textabout {
 
 .photoabout:hover {
     opacity: 1;
-    border: solid #50a0d1;
+    border: solid #eea236;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -208,14 +243,6 @@ h2.textabout {
     font-weight: 800;
     top: 60%;
     color: white;
-}
-
-
-
-.imggosia {
-    width: 100%;
-    height: auto;
-    opacity: 0.3;
 }
 
 .K {
@@ -318,7 +345,7 @@ h2.textabout {
     z-index: 10000000000000;
     font-weight: bold;
     font-size: 0.8em;
-    background: #131313;
+    background: #21324f;
     position: absolute;
     text-align: center;
     margin-left: 0;
@@ -391,7 +418,6 @@ li {
     }
 
 }
-
 button {
     width: 100%;
 }
@@ -399,6 +425,7 @@ button {
 .backgroundForButtons {
     padding-top: 45px
 }
+
 
 /*Koniec przyciski*/
 
@@ -445,6 +472,7 @@ button {
 
 @media screen and (min-width: 992px) {
 
+
     .zajawkanaglowek {
         font-size: 48px;
         font-weight: 700;
@@ -460,6 +488,7 @@ button {
     }
 }
 
+
 .gradientladny, .backgroundForButtons {
     background-image: linear-gradient(-210deg, #21324f, #28524f);
 }
@@ -470,5 +499,8 @@ button {
 
 .width10 {
     width: 10%;
-    margin-top: 10px;
+}
+
+.btn-info {
+    background-color: black;
 }
