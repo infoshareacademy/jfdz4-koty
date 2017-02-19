@@ -104,7 +104,6 @@ input::-webkit-input-placeholder {
     transform: rotate(0deg) translate(-35px,0);
 }
 
-/*  ------------------- nieużywane klasy do usunięcia ------------------------------ */
 .darkbluelight {
     background-color: #21324f;
     color: #50a0d1;
@@ -362,7 +361,7 @@ h2.textabout {
     z-index: 10000000000000;
     font-weight: bold;
     font-size: 0.8em;
-    background: #131313;
+    background: #21324f;
     position: absolute;
     text-align: center;
     margin-left: 0;
@@ -530,5 +529,8 @@ button {
 
 .width10 {
     width: 10%;
-    margin-top: 10px;
+}
+
+.btn-info {
+    background-color: black;
 }
