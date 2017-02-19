@@ -325,6 +325,7 @@ h2.textabout {
     height: 63px;
     padding-bottom: 10px;
     /*position: absolute;*/
+    height: 63px;
 }
 
 .cross, .cross2, .cross3, .cross4 {
@@ -444,14 +445,14 @@ button {
     .zajawkanaglowek {
         font-size: 27px;
         font-weight: 500;
-        top: 18%;
+        top: 15%;
         color: white;
     }
 
     .zajawkaparagraf {
         font-size: 18px;
         font-weight: 400;
-        top: 36%;
+        top: 30%;
         color: white;
     }
 }
