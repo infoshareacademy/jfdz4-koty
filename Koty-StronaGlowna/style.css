@@ -322,6 +322,8 @@ h2.textabout {
     cursor: pointer;
     outline: none;
     z-index: 10000000000000;
+    height: 63px;
+    padding-bottom: 10px;
     /*position: absolute;*/
 }
 
@@ -339,6 +341,7 @@ h2.textabout {
     cursor: pointer;
     outline: none;
     z-index: 10000000000000;
+    height: 63px;
 }
 
 .menu, .menu2, .menu3, .menu4 {
