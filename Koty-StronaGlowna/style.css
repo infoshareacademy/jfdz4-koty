@@ -144,10 +144,6 @@ input::-webkit-input-placeholder {
     background-color: white;
 }
 
-.photoHeader {
-    width: 100%;
-}
-
 .opa {
     opacity: 0;
     transition: opacity 2s;
@@ -250,14 +246,6 @@ h2.textabout {
     color: white;
 }
 
-
-
-.imggosia {
-    width: 100%;
-    height: auto;
-    opacity: 0.3;
-}
-
 .K {
     color: #21324F;
 }
@@ -286,10 +274,6 @@ h2.textabout {
 .oTytulowe {
     font-weight: 800;
     color: #FF7D00;
-}
-
-.aboutIcon {
-    font-size: x-small;
 }
 
 .footer .about {
@@ -411,13 +395,6 @@ h2.textabout {
     color: white;
 }
 
-.glyphicon-home {
-    color: white;
-    font-size: 1.5em;
-    margin-top: 5px;
-    margin: 0 auto;
-}
-
 li {
     color: white;
     /*width: 25%;*/
@@ -459,13 +436,6 @@ button {
     font-weight: bold;
     text-align: center;
 }
-
-.containergame {
-    font-size: x-large;
-    font-weight: bold;
-    text-align: center;
-}
-
 
 @media screen and (max-width: 767px) {
 
