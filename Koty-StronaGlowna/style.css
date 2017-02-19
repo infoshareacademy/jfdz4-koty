@@ -198,7 +198,7 @@ h2.textabout {
 
 .photoabout:hover {
     opacity: 1;
-    border: solid #50a0d1;
+    border: solid #eea236;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
