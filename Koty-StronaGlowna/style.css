@@ -326,7 +326,7 @@ h2.textabout {
 }
 
 .hamburger, .hamburger2, .hamburger3, .hamburger4 {
-    background: none;
+    background: #ff7d00;
     /*position: absolute;*/
     top: 0;
     right: 0;
@@ -525,4 +525,8 @@ button {
 
 .searchButton:hover {
     transform: rotate(15deg)
+}
+
+.width10 {
+    width: 10%;
 }
