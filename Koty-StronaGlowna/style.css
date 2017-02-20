@@ -511,4 +511,12 @@ button {
 .icons {
     border: 1px solid orange;
     box-sizing: border-box;
+    padding: 30px 30px;
+    margin-top: 10px;
+
 }
+
+p {
+    text-align: §;
+}
+
