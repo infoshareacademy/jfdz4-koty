@@ -512,13 +512,13 @@ button {
     border: 5px solid orange;
     box-sizing: border-box;
     padding: 30px 30px;
-    margin-top: 30px
+    margin-top: 30px;
 
 
 }
 
-p {
-    text-align: §;
+.wrapForIconContent {
+    white-space: pre-wrap;
 }
 
 .colorForFunctions {
