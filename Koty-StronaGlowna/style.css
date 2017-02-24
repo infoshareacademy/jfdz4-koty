@@ -592,3 +592,9 @@ button {
 .wojtekbackgroundimg {
     background: url('./images/ramkawojtek.png') no-repeat;
 }
+
+.socialicons {
+    width: 40px;
+    height: 40px;
+    margin: 40px 0px 0px 9px;
+}
