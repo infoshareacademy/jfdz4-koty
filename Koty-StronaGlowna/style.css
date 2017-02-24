@@ -525,7 +525,7 @@ button {
     /*Uzupełnic*/
 }
 
-.pudelko {
+.photo-container {
     width: 149px;
     height: 129px;
     margin: 0 auto;
@@ -535,7 +535,7 @@ button {
 
 }
 
-.karta {
+.card {
     position: relative;
     width: 100%;
     height: 100%;
@@ -546,16 +546,15 @@ button {
     -webkit-transform-style: preserve-3d;
 }
 
-.pudelko:hover > .karta {
+.photo-container:hover > .card {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
 }
 
-.przod {
+.frontside {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('./images/ramkagosia.png') no-repeat;
     background-size: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -563,7 +562,7 @@ button {
     border-radius: 50%;
 }
 
-.tyl {
+.backside {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -578,3 +577,18 @@ button {
     border-radius: 110%;
 }
 
+.gosiabackgroundimg {
+    background: url('./images/ramkagosia.png') no-repeat;
+}
+
+.michalpbackgroundimg {
+    background: url('./images/ramkapawlik.png') no-repeat;
+}
+
+.michalkbackgroundimg {
+    background: url('./images/ramkakwestor.png') no-repeat;
+}
+
+.wojtekbackgroundimg {
+    background: url('./images/ramkawojtek.png') no-repeat;
+}
