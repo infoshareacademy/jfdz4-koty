@@ -598,3 +598,7 @@ button {
     height: 40px;
     margin: 40px 0px 0px 9px;
 }
+
+.prelineForIconContent {
+    white-space: pre-wrap;
+}
