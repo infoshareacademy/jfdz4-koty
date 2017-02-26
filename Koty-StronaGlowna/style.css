@@ -104,7 +104,6 @@ input::-webkit-input-placeholder {
     transform: rotate(0deg) translate(-35px,0);
 }
 
-/*  ------------------- nieużywane klasy do usunięcia ------------------------------ */
 .darkbluelight {
     background-color: #21324f;
     color: #50a0d1;
@@ -144,10 +143,6 @@ input::-webkit-input-placeholder {
     background-color: white;
 }
 
-.photoHeader {
-    width: 100%;
-}
-
 .opa {
     opacity: 0;
     transition: opacity 2s;
@@ -173,7 +168,7 @@ input::-webkit-input-placeholder {
 
 .headabout {
     font-family: Cabin;
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background-image: linear-gradient(-210deg, #21324f, #28524f);
 }
 
 .about {
@@ -250,14 +245,6 @@ h2.textabout {
     color: white;
 }
 
-
-
-.imggosia {
-    width: 100%;
-    height: auto;
-    opacity: 0.3;
-}
-
 .K {
     color: #21324F;
 }
@@ -286,10 +273,6 @@ h2.textabout {
 .oTytulowe {
     font-weight: 800;
     color: #FF7D00;
-}
-
-.aboutIcon {
-    font-size: x-small;
 }
 
 .footer .about {
@@ -326,7 +309,7 @@ h2.textabout {
 }
 
 .hamburger, .hamburger2, .hamburger3, .hamburger4 {
-    background: none;
+    background: #ff7d00;
     /*position: absolute;*/
     top: 0;
     right: 0;
@@ -362,7 +345,7 @@ h2.textabout {
     z-index: 10000000000000;
     font-weight: bold;
     font-size: 0.8em;
-    background: #131313;
+    background: #21324f;
     position: absolute;
     text-align: center;
     margin-left: 0;
@@ -411,13 +394,6 @@ h2.textabout {
     color: white;
 }
 
-.glyphicon-home {
-    color: white;
-    font-size: 1.5em;
-    margin-top: 5px;
-    margin: 0 auto;
-}
-
 li {
     color: white;
     /*width: 25%;*/
@@ -454,18 +430,11 @@ button {
 /*Koniec przyciski*/
 
 .containernewsletter {
-    padding: 20px;
+    padding: 40px;
     font-size: x-large;
     font-weight: bold;
     text-align: center;
 }
-
-.containergame {
-    font-size: x-large;
-    font-weight: bold;
-    text-align: center;
-}
-
 
 @media screen and (max-width: 767px) {
 
@@ -503,6 +472,7 @@ button {
 
 @media screen and (min-width: 992px) {
 
+
     .zajawkanaglowek {
         font-size: 48px;
         font-weight: 700;
@@ -520,9 +490,17 @@ button {
 
 
 .gradientladny, .backgroundForButtons {
-    background-image: linear-gradient(to top, #21324F 0%, #4e4376 100%);
+    background-image: linear-gradient(-210deg, #21324f, #28524f);
 }
 
 .searchButton:hover {
     transform: rotate(15deg)
+}
+
+.width10 {
+    width: 10%;
+}
+
+.btn-info {
+    background-color: black;
 }
