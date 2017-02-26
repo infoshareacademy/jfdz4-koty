@@ -508,3 +508,9 @@ button {
 .btn-info {
     background-color: black;
 }
+
+.imgheader{
+    margin-top: 15px;
+    max-width: 100%;
+    width: 50px;
+}
