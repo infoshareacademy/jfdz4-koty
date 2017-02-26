@@ -508,6 +508,12 @@ button {
     background-color: black;
 }
 
+.imgheader{
+    margin-top: 15px;
+    max-width: 100%;
+    width: 50px;
+}
+
 .icons {
     border: 5px solid orange;
     box-sizing: border-box;
