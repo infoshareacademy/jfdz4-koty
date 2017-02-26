@@ -55,12 +55,6 @@ body {
     background-color: #21324f;
 }
 
-.searchButton {
-    height: 48px;
-    width: 48px;
-    transition: 1s;
-}
-
 .placeholderNav {
     width: 20%;
     min-width: 160px;
@@ -421,9 +415,6 @@ li {
     }
 
 }
-button {
-    width: 100%;
-}
 
 .backgroundForButtons {
     padding-top: 45px
@@ -496,10 +487,6 @@ button {
     background-image: linear-gradient(-210deg, #21324f, #28524f);
 }
 
-.searchButton:hover {
-    transform: rotate(15deg)
-}
-
 .width10 {
     width: 10%;
 }
@@ -519,8 +506,6 @@ button {
     box-sizing: border-box;
     padding: 30px 30px;
     margin-top: 30px;
-
-
 }
 
 .wrap {
@@ -608,3 +593,30 @@ button {
 .prelineForIconContent {
     white-space: pre-wrap;
 }
+
+.tlonavbar, .navbar {
+    background-color: #21324f;
+    border: 0 !important;
+}
+
+.navbar li {
+    color: white;
+    padding: 15px 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white !important;
+}
+
+.navbar li:hover{
+    background-color: #2b5876;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #2b5876 !important;
+}
+
+.active {
+    background-color: #2b5876;
+}
+

@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
  <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width">
+ <meta name="viewport" content="width=device-width initial-scale=1">
  <title>Koty - Pomocnik zakupowy</title>
  <link rel="stylesheet" href="style.css">
  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
@@ -12,20 +12,39 @@
 <body>
 
 <!--Header Wyszukiwarka Logo i lapa -->
-<div class="navigation center">
- <form>
-  <input class="placeholderNav"
-         placeholder=" czego szukasz kotku?">
-  <input class="margintop searchButton"
-         type="image"
-         src="images/pawprint.svg">
- </form>
+<div class="navigation">
+ <nav class="navbar navbar-default">
+  <div class="container-fluid tlonavbar">
+   <!-- Brand and toggle get grouped for better mobile display -->
+   <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+     <span class="sr-only">Toggle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img class="imgfooter" src="images/pawprint.svg"></a>
+   </div>
+
+   <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+           <li class="active"><a href="#zajawka">Zajawka</a></li>
+           <li><a href="#funkcje">Funkcje</a></li>
+           <li><a href="#newsletter">Newsletter</a></li>
+           <li><a href="#autorzy">Autorzy</a></li>
+           <li><a href="#footer">Footer</a></li>
+         </ul>
+   </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+ </nav>
+ </div>
 
 </div>
 <!--Koniec Header Wyszukiwarka Loga i Lapa-->
 
 <!--Zajawka-->
-<Header class="zajawka">
+<Header id="zajawka" class="zajawka">
  <div style="background-color: black;
     width: 100%;
     height: 10px;">
@@ -45,7 +64,7 @@
 <!--Koniec Zajawki-->
 
 <!--Ikony+Kolumny-->
-<div class="container-fluid colorForFunctions">
+<div id="funkcje" class="container-fluid colorForFunctions">
 <div class="container">
 
   <!--Icons for screen-->
@@ -104,7 +123,6 @@
   <h2 class="textabout">
    Autorzy
   </h2>
-  <p class="textabout">Najedź na buźkę i kliknij jeżeli chcesz się dowiedzieć czegoś więcej.</p>
 
   <div class="about col-xs-12 col-sm-6 col-md-3">
    <div class="photo-container">
@@ -183,7 +201,7 @@
 <!--Koniec latajacego menu facebooka po prawej stronie na dole-->
 
 <!--Footer stopka adresowa-->
-<div class="container-fluid footer">
+<div id="footer" class="container-fluid footer">
  <footer class="container">
   <div class="col-sm-1">
   </div>
@@ -246,7 +264,8 @@
 </div>
 <!--Koniec Footera stopki adresowej-->
 
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
 
 </body>
