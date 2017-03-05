@@ -433,16 +433,16 @@ li {
 @media screen and (max-width: 767px) {
 
     .zajawkanaglowek {
-        font-size: 27px;
+        font-size: 24px;
         font-weight: 500;
-        top: 15%;
+        top: 7%;
         color: white;
     }
 
     .zajawkaparagraf {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        top: 30%;
+        top: 16%;
         color: white;
     }
 }
@@ -452,14 +452,14 @@ li {
     .zajawkanaglowek {
         font-size: 44px;
         font-weight: 700;
-        top: 18%;
+        top: 8%;
         color: white;
     }
 
     .zajawkaparagraf {
         font-size: 33px;
         font-weight: 600;
-        top: 54%;
+        top: 24%;
         color: white;
     }
 }
@@ -468,16 +468,16 @@ li {
 
 
     .zajawkanaglowek {
-        font-size: 54px;
+        font-size: 66px;
         font-weight: 700;
-        top: 21%;
+        top: 9%;
         color: white;
     }
 
     .zajawkaparagraf {
-        font-size: 36px;
+        font-size: 49px;
         font-weight: 600;
-        top: 63%;
+        top: 27%;
         color: white;
     }
 }
