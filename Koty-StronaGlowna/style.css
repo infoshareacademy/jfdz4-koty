@@ -180,7 +180,7 @@ input::-webkit-input-placeholder {
     padding: 15px;
 }
 
-h2.textabout {
+.container > h2 {
     font-weight: 900;
     font-size: 34px;
 }
@@ -502,7 +502,6 @@ li {
 }
 
 .icons {
-    border: 5px solid orange;
     box-sizing: border-box;
     padding: 30px 30px;
 }
@@ -512,7 +511,7 @@ li {
 }
 
 .colorForFunctions {
-    /*Uzupełnic*/
+    background-color: rgba(16, 6, 8, 0.09);
 }
 
 .photo-container {
@@ -617,4 +616,14 @@ li {
 
 .active {
     background-color: #2b5876;
+}
+
+
+
+.marginForIcons {
+    margin: 20px 0px 0px 0px;
+}
+
+.icons > h1 {
+    font-size: x-large;
 }
