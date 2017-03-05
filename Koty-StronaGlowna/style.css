@@ -1,6 +1,6 @@
 body {
     background-color: #21324f;
-    margin: 0px;
+    margin: 0px
 }
 
 .borderspace {
@@ -53,12 +53,6 @@ body {
     height: 80px;
     box-sizing: border-box;
     background-color: #21324f;
-}
-
-.searchButton {
-    height: 48px;
-    width: 48px;
-    transition: 1s;
 }
 
 .placeholderNav {
@@ -168,7 +162,7 @@ input::-webkit-input-placeholder {
 
 .headabout {
     font-family: Cabin;
-    background-image: linear-gradient(-210deg, #21324f, #28524f);
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
 .about {
@@ -198,7 +192,7 @@ h2.textabout {
 
 .photoabout:hover {
     opacity: 1;
-    border: solid #50a0d1;
+    border: solid #eea236;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -322,6 +316,8 @@ h2.textabout {
     cursor: pointer;
     outline: none;
     z-index: 10000000000000;
+    height: 63px;
+    padding-bottom: 10px;
     /*position: absolute;*/
 }
 
@@ -339,6 +335,7 @@ h2.textabout {
     cursor: pointer;
     outline: none;
     z-index: 10000000000000;
+    height: 63px;
 }
 
 .menu, .menu2, .menu3, .menu4 {
@@ -418,9 +415,6 @@ li {
     }
 
 }
-button {
-    width: 100%;
-}
 
 .backgroundForButtons {
     padding-top: 45px
@@ -441,14 +435,14 @@ button {
     .zajawkanaglowek {
         font-size: 27px;
         font-weight: 500;
-        top: 18%;
+        top: 15%;
         color: white;
     }
 
     .zajawkaparagraf {
         font-size: 18px;
         font-weight: 400;
-        top: 36%;
+        top: 30%;
         color: white;
     }
 }
@@ -474,14 +468,14 @@ button {
 
 
     .zajawkanaglowek {
-        font-size: 48px;
+        font-size: 54px;
         font-weight: 700;
         top: 21%;
         color: white;
     }
 
     .zajawkaparagraf {
-        font-size: 32px;
+        font-size: 36px;
         font-weight: 600;
         top: 63%;
         color: white;
@@ -493,14 +487,135 @@ button {
     background-image: linear-gradient(-210deg, #21324f, #28524f);
 }
 
-.searchButton:hover {
-    transform: rotate(15deg)
-}
-
 .width10 {
     width: 10%;
 }
 
 .btn-info {
     background-color: black;
+}
+
+.imgheader{
+    margin-top: 15px;
+    max-width: 100%;
+    width: 50px;
+}
+
+.icons {
+    border: 5px solid orange;
+    box-sizing: border-box;
+    padding: 30px 30px;   
+    margin-top: 30px;
+}
+
+.wrap {
+    white-space: pre-wrap;
+}
+
+.colorForFunctions {
+    /*Uzupełnic*/
+}
+
+.photo-container {
+    width: 149px;
+    height: 129px;
+    margin: 0 auto;
+    perspective: 300px;
+    -webkit-perspective: 300px;
+    border-radius: 110%;
+
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1s;
+    -webkit-transition: 1s;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.photo-container:hover > .card {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+.frontside {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    box-shadow: 0 0 4px 8px #FFF inset;
+    border-radius: 50%;
+}
+
+.backside {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    font-size: 1.6em;
+    background-color: #000;
+    box-shadow: 0 0 4px 8px #FFF inset;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 110%;
+}
+
+.gosiabackgroundimg {
+    background: url('./images/ramkagosia.png') no-repeat;
+}
+
+.michalpbackgroundimg {
+    background: url('./images/ramkapawlik.png') no-repeat;
+}
+
+.michalkbackgroundimg {
+    background: url('./images/ramkakwestor.png') no-repeat;
+}
+
+.wojtekbackgroundimg {
+    background: url('./images/ramkawojtek.png') no-repeat;
+}
+
+.socialicons {
+    width: 40px;
+    height: 40px;
+    margin: 40px 0px 0px 9px;
+}
+
+.prelineForIconContent {
+    white-space: pre-wrap;
+}
+
+.tlonavbar, .navbar {
+    background-color: #21324f;
+    border: 0 !important;
+}
+
+.navbar li {
+    color: white;
+    padding: 15px 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white !important;
+}
+
+.navbar li:hover{
+    background-color: #2b5876;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #2b5876 !important;
+}
+
+.active {
+    background-color: #2b5876;
 }
