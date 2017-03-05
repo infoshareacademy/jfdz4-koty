@@ -618,6 +618,10 @@ h1.premiera {
     color: white !important;
 }
 
+.navbar-default .navbar-collapse {
+    border: 0;
+}
+
 .navbar li:hover{
     background-color: #2b5876;
 }
@@ -630,6 +634,15 @@ h1.premiera {
     background-color: #2b5876;
 }
 
+.navigation .tlonavbar {
+    padding-right: 0 !important;
+}
+
+button.collapsed, button.navbar-toggle {
+    padding: 13px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
 
 
 .marginForIcons {
