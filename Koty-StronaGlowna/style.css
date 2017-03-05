@@ -55,12 +55,6 @@ body {
     background-color: #21324f;
 }
 
-.searchButton {
-    height: 48px;
-    width: 48px;
-    transition: 1s;
-}
-
 .placeholderNav {
     width: 20%;
     min-width: 160px;
@@ -168,7 +162,7 @@ input::-webkit-input-placeholder {
 
 .headabout {
     font-family: Cabin;
-    background-image: linear-gradient(20deg, #2b5876 0%, #4e4376 100%);
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
 .about {
@@ -436,8 +430,7 @@ h1.premiera {
 }
 
 .backgroundForButtons {
-    padding-top: 45px;
-
+    padding-top: 45px
 }
 
 .containerpremiera {
@@ -506,11 +499,7 @@ h1.premiera {
 
 
 .gradientladny, .backgroundForButtons {
-    background-image: linear-gradient(210deg, #21324f, #28524f);
-}
-
-.searchButton:hover {
-    transform: rotate(15deg)
+    background-image: linear-gradient(-210deg, #21324f, #28524f);
 }
 
 .width10 {
@@ -521,13 +510,17 @@ h1.premiera {
     background-color: black;
 }
 
+.imgheader{
+    margin-top: 15px;
+    max-width: 100%;
+    width: 50px;
+}
+
 .icons {
     border: 5px solid orange;
     box-sizing: border-box;
     padding: 30px 30px;   
     margin-top: 30px;
-
-
 }
 
 .wrap {
@@ -614,4 +607,30 @@ h1.premiera {
 
 .prelineForIconContent {
     white-space: pre-wrap;
+}
+
+.tlonavbar, .navbar {
+    background-color: #21324f;
+    border: 0 !important;
+}
+
+.navbar li {
+    color: white;
+    padding: 15px 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white !important;
+}
+
+.navbar li:hover{
+    background-color: #2b5876;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #2b5876 !important;
+}
+
+.active {
+    background-color: #2b5876;
 }
