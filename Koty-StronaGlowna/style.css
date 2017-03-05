@@ -420,15 +420,27 @@ li {
     padding-top: 45px
 }
 
+p.premiera {
+    font-size: 50px;
+}
 
-/*Koniec przyciski*/
+h1.premiera {
+    width: 100%;
+    padding: 0 20px 0 20px;
+}
 
-.containernewsletter {
+.frame {
+    border: 3px solid #FF7D00;
+}
+
+.containerpremiera {
     padding: 40px;
     font-size: x-large;
     font-weight: bold;
     text-align: center;
 }
+
+/*Koniec przyciski*/
 
 @media screen and (max-width: 767px) {
 
