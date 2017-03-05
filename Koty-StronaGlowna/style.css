@@ -180,7 +180,7 @@ input::-webkit-input-placeholder {
     padding: 15px;
 }
 
-h2.textabout {
+.container > h2 {
     font-weight: 900;
     font-size: 34px;
 }
@@ -514,10 +514,8 @@ h1.premiera {
 }
 
 .icons {
-    border: 5px solid orange;
     box-sizing: border-box;
-    padding: 30px 30px;   
-    margin-top: 30px;
+    padding: 30px 30px;
 }
 
 .wrap {
@@ -525,7 +523,7 @@ h1.premiera {
 }
 
 .colorForFunctions {
-    /*Uzupełnic*/
+    background-color: rgba(16, 6, 8, 0.09);
 }
 
 .photo-container {
@@ -630,4 +628,14 @@ h1.premiera {
 
 .active {
     background-color: #2b5876;
+}
+
+
+
+.marginForIcons {
+    margin: 20px 0px 0px 0px;
+}
+
+.icons > h1 {
+    font-size: x-large;
 }
