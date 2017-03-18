@@ -4,6 +4,7 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width initial-scale=1">
  <title>Koty - Pomocnik zakupowy</title>
+ <link rel="stylesheet" href="animated.css">
  <link rel="stylesheet" href="style.css">
  <link rel="stylesheet" href="cookies.css">
  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
@@ -121,11 +122,13 @@
 <div id="autorzy"
      class="container-fluid headabout">
  <div class="container">
-  <h2 class="textabout">
-   Autorzy
-  </h2>
-
-  <div class="about col-xs-12 col-sm-6 col-md-3">
+  <div class="aniview" data-av-animation="flip">
+   <h2 class="textabout">
+    Autorzy
+   </h2>
+  </div>
+  <div class="aniview" data-av-animation="slideInLeft">
+   <div class=" about col-xs-12 col-sm-6 col-md-3">
    <div class="photo-container">
     <div class="card">
      <div class="frontside gosiabackgroundimg"></div>
@@ -138,7 +141,8 @@
    <p>"Życie, które mi dano, jest tylko opowieścią, ale jak ją opowiem, to już moja sprawa."
     Marek Hłasko</p>
   </div>
-
+  </div>
+  <div class="aniview" data-av-animation="slideInLeft">
   <div class="about col-xs-12 col-sm-6 col-md-3">
    <div class="photo-container">
 
@@ -155,7 +159,8 @@
    <p>Miłośnik przyrody, potrafi cieszyć się z małych rzeczy, nałogowo pije herbatę i kawę oraz spożywa
     czekoladę.</p>
   </div>
-
+  </div>
+  <div class="aniview" data-av-animation="slideInRight">
   <div class="about col-xs-12 col-sm-6 col-md-3">
    <div class="photo-container">
     <div class="card">
@@ -168,7 +173,8 @@
    <p>MICHAŁ KWESTOROWSKI</p>
    <p>Pasjonat technologi komputerowej. Tancerz amator. Samozwańczy nauczyciel filozofii dla znajomych.</p>
   </div>
-
+  </div>
+  <div class="aniview" data-av-animation="slideInRight">
   <div class="about col-xs-12 col-sm-6 col-md-3">
    <div class="photo-container">
     <div class="card">
@@ -185,6 +191,7 @@
      https://www.youtube.com/watch?v=YdWo5zbbGnY
     </a>
    </p>
+  </div>
   </div>
 
   <div class="clearfix"></div>
@@ -269,6 +276,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
 <script src="js/cookies.js"></script>
+<script src="js/jquery.aniview.js"></script>
 
 </body>
 </html>
