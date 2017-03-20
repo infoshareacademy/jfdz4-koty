@@ -15,34 +15,30 @@
 
 <!--Header Wyszukiwarka Logo i lapa -->
 <div class="navigation">
-  <nav class="navbar navbar-default">
-    <div class="container-fluid tlonavbar">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">
-          <img class="imgfooter" src="images/pawprint.svg"></a>
-      </div>
+ <nav class="navbar navbar-default">
+  <div class="container-fluid tlonavbar">
+   <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+     <span class="sr-only">Toggle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img class="imgfooter" src="images/pawprint.svg"></a>
+   </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#zajawka">Zajawka</a></li>
-          <li><a href="#funkcje">Funkcje</a></li>
-          <li><a href="#newsletter">Newsletter</a></li>
-          <li><a href="#autorzy">Autorzy</a></li>
-          <li><a href="#footer">Footer</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-</div>
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+           <li class="active"><a href="#zajawka">Zajawka</a></li>
+           <li><a href="#funkcje">Funkcje</a></li>
+           <li><a href="#premiera">Premiera</a></li>
+           <li><a href="#autorzy">Autorzy</a></li>
+           <li><a href="#footer">Footer</a></li>
+         </ul>
+   </div>
+  </div>
+ </nav>
+ </div>
 
 </div>
 <!--Koniec Header Wyszukiwarka Loga i Lapa-->
@@ -74,66 +70,78 @@
 <div id="funkcje" class="container-fluid colorForFunctions">
   <div class="container">
 
-    <!--Icons for screen-->
-    <div class="row">
-      <div class="aniview" data-av-animation="fadeInLeft">
-        <div class="icons col-lg-2 col-md-4 col-md-offset-1 col-sm-8 col-sm-offset-2 text-center">
-          <img class="img-responsive"
-               src="icons/keyboard-rotated.svg" alt="">
-          <h2>Wpisujesz</h2>
-          <p>Wpisz w wyszukiwarce nazwę produktu, a wyświetlimy Ci najkorzystniejszą dla Ciebie opcje</p></div>
-      </div>
-      <div class="aniview" data-av-animation="fadeInLeft">
-        <div
-          class="icons col-lg-2 col-lg-offset-1 col-md-4 col-md-offset-2 col-sm-8 col-sm-offset-2  text-center border">
-          <img class="img-responsive"
-               src="icons/commerce.svg   " alt="">
-          <h2>Zamawiasz</h2>
-          <p class="prelineForIconContent">Wybierasz interesujący Cię produkt, podajesz adres do wysyłki oraz
-            sposób dostawy towaru</p></div>
-      </div>
-      <div class="aniview" data-av-animation="fadeInRight">
-        <div
-          class="icons col-lg-2 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-8 col-sm-offset-2 text-center border">
-          <img
-            class="img-responsive"
-            src="icons/wallet.svg" alt="">
-          <h2>Płacisz</h2>
-          <p>Wystarczy, że podasz numer swojej karty kredytowej. Automatycznie zakończymy transkację.</p></div>
-      </div>
-      <div class="aniview" data-av-animation="fadeInRight">
-        <div
-          class="icons col-lg-2 col-lg-offset-1 col-md-4 col-md-offset-2 col-sm-8 col-sm-offset-2  text-center border">
-          <img class="img-responsive"
-               src="icons/delivery-truck.svg" alt="">
-          <h2>Odbierasz</h2>
-          <p>W zależności od wybranej przez Ciebie metody dostawy Twój produkt dostarczany jest w ciągu 48h.</p></div>
-      </div>
+  <!--Icons for screen-->
+ <div class="row">
+   <div class="aniview" data-av-animation="fadeInLeft">
+  <div class="col-lg-3 col-md-3 col-sm-3 marginForIcons">
+   <div class="icons text-center border">
+   <img class="img-responsive"
+        src="icons/keyboard-rotated.svg" alt="">
+   <h1>Wpisujesz</h1>
+   <p>Wpisz w wyszukiwarce nazwę produktu, a wyświetlimy Ci najkorzystniejszą dla Ciebie opcje</p>
+   </div>
+  </div>
+   </div>
+
+    <div class="aniview" data-av-animation="fadeInLeft">
+  <div class="col-lg-3 col-md-3 col-sm-3 marginForIcons">
+   <div class="icons text-center border">
+     <img class="img-responsive"
+          src="icons/commerce.svg   " alt="">
+   <h1>Zamawiasz</h1>
+    <p class="prelineForIconContent">Wybierasz interesujący Cię produkt, podajesz adres do wysyłki oraz
+    sposób dostawy towaru</p>
+   </div>
+  </div>
     </div>
+      <div class="aniview" data-av-animation="fadeInRight">
+ <div class="col-lg-3 col-md-3 col-sm-3 marginForIcons">
+
+   <div class="icons text-center border"><img
+     class="img-responsive"
+     src="icons/wallet.svg" alt="">
+   <h1>Płacisz</h1>
+   <p>Wystarczy, że podasz numer swojej karty kredytowej. Automatycznie zakończymy transkację.</p>
+   </div>
+ </div>
+      </div>
+        <div class="aniview" data-av-animation="fadeInRight">
+  <div class="col-lg-3 col-md-3 col-sm-3 marginForIcons">
+   <div class="icons text-center border">
+     <img class="img-responsive"
+          src="icons/delivery-truck.svg" alt="">
+   <h1>Odbierasz</h1>
+     <p>W zależności od wybranej przez Ciebie metody dostawy Twój produkt dostarczany jest w ciągu 48h.</p>
+   </div>
   </div>
+ </div>
+</div>
 </div>
 
 
-<!--Newsletter-->
 
-<div id="newsletter" class="container-fluid ">
-  <!--Dlaczego po id?-->
-  <div class="containernewsletter center">
-    <p>Chcesz otrzymywać newsletter z najciekawszymi ofertami? </p>
-    <p>Podaj swój e-mail:</p>
-    <form class="form-group center">
-      <input type="text"
-             class="form-control email "
-             name="adres e-mail">
-      <button type="submit" class="btn btn-warning width10">
-        @
-      </button>
+<!--Premiera-->
 
-    </form>
-  </div>
+<div id="premiera" class="container-fluid ">
+ <div class="containerpremiera center">
+  <p class="premiera">WKRÓTCE PREMIERA!</p>
+  <p>Wprowadź adres e-mail i korzystaj z super ofert.</p>
+  <br>
+  <div class="col-xs-4 col-xs-offset-4">
+   <form class="form-group center premiera">
+    <input type="text" class="form-control email" name="adres e-mail">
+
+    <br>
+    <button type="submit" class="btn btn-warning width">
+     <h1 class="premiera">Zapisz</h1></button>
+
+  </form>
+ </div>
+
+ </div>
 
 </div>
-<!--Koniec Newletter-->
+<!--Koniec Premiera-->
 
 
 <!--Nasze zdjecia i opisy-->
@@ -233,75 +241,73 @@
 
 <!--Footer stopka adresowa-->
 <div id="footer" class="container-fluid footer">
-  <footer class="container">
-    <div class="col-sm-1">
-    </div>
-    <div class="about col-xs-6 col-sm-3">
-      <a href="#"
-         target="blank">
-        <img class="imgfooter"
-             src="images/pawprint.svg">
+ <footer class="container">
+  <div class="col-sm-1">
+  </div>
+  <div class="about col-xs-6 col-sm-3">
+   <a href="#"
+      target="blank">
+    <img class="imgfooter"
+         src="images/pawprint.svg">
+   </a>
+   <p><span class="K">K</span><span class="O">O</span><span class="T">T</span><span class="Y">Y</span> sp. z
+    o.o. sp.k. sp. j.</p>
+   <p>ul. Grunwaldzka ileś tam.</p>
+   <p>80-000 Gdańsk</p>
+   <p>NIP: 70150</p>
+  </div>
+  <p></p>
+  <div class="about col-xs-6 col-sm-3">
+   <nav>
+    <ul>MENU:
+     <li>
+      <a href="#">
+       Zajawka
       </a>
-      <p><span class="K">K</span><span class="O">O</span><span class="T">T</span><span class="Y">Y</span> sp. z
-        o.o. sp.k. sp. j.</p>
-      <p>ul. Grunwaldzka ileś tam.</p>
-      <p>80-000 Gdańsk</p>
-      <p>NIP: 70150</p>
-    </div>
-    <p></p>
-    <div class="about col-xs-6 col-sm-3">
-      <nav>
-        <ul>MENU:
-          <li>
-            <a href="#funkcje">
-            </a>
-            Funkcje
-          </li>
+     </li>
 
-          <li>
-            <a href="#">
-              Zajawka
-            </a>
-          </li>
+     <li>
+      <a href="#funkcje">
+       Funkcje
+      </a>
+     </li>
 
-          <li>
-            <a href="#newsletter">
-              Newsletter
-            </a>
-          </li>
+     <li>
+      <a href="#newsletter">
+       Newsletter
+      </a>
+     </li>
 
-          <li>
-            <a href="#autorzy">
-              Autorzy
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+     <li>
+      <a href="#autorzy">
+       Autorzy
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </div>
 
-    <div class="about col-xs-12 col-sm-4 leftabout">
-      COŚTAM: <p>
-      Lorem ipsum jakis tekst nie wiem o czym, wiec tu rap wstawiam z nocy, bo juz nie mam wiecej mocy. Lorem
-      ipsum jakis tekst nie wiem o czym, wiec tu rap wstawiam z nocy, bo juz nie mam wiecej mocy. Lorem ipsum
-      jakis tekst nie wiem o czym, wiec tu rap wstawiam z nocy, bo juz nie mam wiecej mocy. Lorem ipsum jakis
-      tekst nie wiem o czym, wiec tu rap wstawiam z nocy, bo juz nie mam wiecej mocy.
-    </p>
-    </div>
+  <div class="about col-xs-12 col-sm-4 leftabout">
+   COŚTAM: <p>
+   Lorem ipsum jakis tekst nie wiem o czym, wiec tu rap wstawiam z nocy, bo juz nie mam wiecej mocy. Lorem
+   ipsum jakis tekst nie wiem o czym, wiec tu rap wstawiam z nocy, bo juz nie mam wiecej mocy. Lorem ipsum
+   jakis tekst nie wiem o czym, wiec tu rap wstawiam z nocy, bo juz nie mam wiecej mocy. Lorem ipsum jakis
+   tekst nie wiem o czym, wiec tu rap wstawiam z nocy, bo juz nie mam wiecej mocy.
+  </p>
+  </div>
 
-    <div class="col-sm-1">
-    </div>
+  <div class="col-sm-1">
+  </div>
 
-  </footer>
+ </footer>
 </div>
 <!--Koniec Footera stopki adresowej-->
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
 <script src="js/cookies.js"></script>
+<script src="js/scroll.js"></script>
 <script src="js/jquery.aniview.js"></script>
 
 </body>
