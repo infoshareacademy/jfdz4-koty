@@ -23,7 +23,7 @@
 // //ZAZNACZANIE KOMOREK
 // $('td').click(function(){
 //     $(this).css('background-color', 'red')
-// })
+// });
 // //KONIEC ZAZNACZANIA KOMOREK
 //
 // //ZAPISYWANIE RANDOMOWYCH INDEXOW
