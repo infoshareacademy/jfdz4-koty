@@ -1,4 +1,10 @@
-// //Tworzenie tabeli
+
+// ZADANIE!
+//     1. Pracuj tylko w swojej sekcji poniżej!
+//     2. Możesz korzystać z gotowych sekcji kodu poniżej!
+//     3. Na tabeli ma się pojawiać w randomowych miejscach czerwona komórka.
+
+// //TWORZENIE TABELI
 // $("#cosTam").dialog({autoOpen: false});
 // $("#buttonPremiera").click(function () {
 //     $("#cosTam").dialog("open");
@@ -14,13 +20,13 @@
 // ;
 // //Koniec tworzenia tabeli
 //
-// //Zaznaczanie Komórek
+// //ZAZNACZANIE KOMOREK
 // $('td').click(function(){
 //     $(this).css('background-color', 'red')
 // })
 // //KONIEC ZAZNACZANIA KOMOREK
 //
-// //zapisywanie randomowych indexow
+// //ZAPISYWANIE RANDOMOWYCH INDEXOW
 // var wyniki = [];
 //
 // for (i = getRandomInt(1,7); i < 462; i += getRandomInt(50,100)) {
@@ -28,14 +34,14 @@
 // }
 // // koniec zapisywania randomowych indexow
 //
-// //Wybor losowej liczby
+// //WYBOR LOSOWEJ LICZBY
 // function getRandomInt(min, max) {
 //     var randomNumberForCells = Math.floor(Math.random() * (max - min)) + min;
 //     return randomNumberForCells; };
 // //Koniec wyboru losowej liczby
 //
 //
-// //To jego probka jakas
+// //JAKAS PROBKA TRENERA
 // $('#tbl td').each(function( getRandomInt, element ){for (i = 0; i < 462; i += getRandomInt(50,100)){
 //     $()
 // }})
