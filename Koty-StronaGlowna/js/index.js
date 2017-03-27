@@ -1,66 +1,45 @@
+$("#cosTam").dialog({autoOpen: false});
+$("#buttonPremiera").click(function () {
+    $("#cosTam").dialog("open");
+});
+$('#cosTam').prepend("<table></table>");
+for (i = 0; i <= 17; i += 1) {
+    $('table').append('<tr></tr>');
+}
+;
+for (j = 0; j < 24; j++) {
+    var count = j;
+    $('tr').append('<td></td>');
 
-// ZADANIE!
-//     1. Pracuj tylko w swojej sekcji poniżej!
-//     2. Możesz korzystać z gotowych sekcji kodu poniżej!
-//     3. Na tabeli ma się pojawiać w randomowych miejscach czerwona komórka.
+    $('table td').each(function (index) {
+        $(this).attr('id', index)
+    })
 
-// //TWORZENIE TABELI
-// $("#cosTam").dialog({autoOpen: false});
-// $("#buttonPremiera").click(function () {
-//     $("#cosTam").dialog("open");
-// });
-// $('#cosTam').prepend("<table></table>");
-// for (i = 0; i <= 17; i += 1) {
-//     $('table').append('<tr></tr>');
-// }
-// ;
-// for (j = 0; j < 24; j++) {
-//     $('tr').append('<td></td>')
-// }
-// ;
-// //Koniec tworzenia tabeli
-//
-// //ZAZNACZANIE KOMOREK
-// $('td').click(function(){
-//     $(this).css('background-color', 'red')
-// });
-// //KONIEC ZAZNACZANIA KOMOREK
-//
-// //ZAPISYWANIE RANDOMOWYCH INDEXOW
-// var wyniki = [];
-//
-// for (i = getRandomInt(1,7); i < 462; i += getRandomInt(50,100)) {
-//  wyniki.push(i)
-// }
-// // koniec zapisywania randomowych indexow
-//
-// //WYBOR LOSOWEJ LICZBY
-// function getRandomInt(min, max) {
-//     var randomNumberForCells = Math.floor(Math.random() * (max - min)) + min;
-//     return randomNumberForCells; };
-// //Koniec wyboru losowej liczby
-//
-//
-// //JAKAS PROBKA TRENERA
-// $('#tbl td').each(function( getRandomInt, element ){for (i = 0; i < 462; i += getRandomInt(50,100)){
-//     $()
-// }})
-// //Koniec probki
+}
+;
+//KONIEC ZAZNACZANIA KOMOREK
 
-//---------------------------------------------------------------
-//MICHAŁ KWESTOROWSKI
+//ZAPISYWANIE RANDOMOWYCH INDEXOW
+var wyniki = [];
 
-//KONIEC MICHAŁ K
-//---------------------------------------------------------------
-//MICHAŁ PAWLIKOWSKI
+for (i = getRandomInt(1, 7); i < 431; i += getRandomInt(5, 10)) {
+    wyniki.push(i)
+}
+// koniec zapisywania randomowych indexow
 
-//KONIEC MICHAŁ P
-//---------------------------------------------------------------
-//WOJTEK KASJANIUK
+//WYBOR LOSOWEJ LICZBY
+function getRandomInt(min, max) {
+    var randomNumberForCells = Math.floor(Math.random() * (max - min)) + min;
+    return randomNumberForCells;
+};
+//Koniec wyboru losowej liczby
+debugger
+for (i = 0; i < wyniki.length; i += 1) {
+    var rand = wyniki[Math.floor(Math.random() * wyniki.length)];
+    $('td').eq(rand).css('background', 'red');
+}
 
-//KONIEC WOJTEK K
-//---------------------------------------------------------------
-//GOSIA GASZEWSKA
 
-//KONIEC GOSIA G
-//---------------------------------------------------------------
+
+
+
