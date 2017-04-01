@@ -36,8 +36,9 @@ function getRandomInt(min, max) {
 debugger
 for (i = 0; i < wyniki.length; i += 1) {
     var rand = wyniki[Math.floor(Math.random() * wyniki.length)];
-    $('td').eq(rand).css('background', 'red');
+    $('td').eq(rand).prepend('<img id = "house" class="img-responsive" src="https://thumbs.dreamstime.com/x/ikona-liczny-sklep-16435924.jpg"/>');
 }
+
 
 
 
