@@ -22,7 +22,7 @@ for (j = 0; j < 24; j++) {
 //ZAPISYWANIE RANDOMOWYCH INDEXOW
 var wyniki = [];
 
-for (i = getRandomInt(1, 7); i < 431; i += getRandomInt(5, 10)) {
+for (i = getRandomInt(1, 7); i < 431; i += 61) {
     wyniki.push(i)
 }
 // koniec zapisywania randomowych indexow
@@ -35,7 +35,7 @@ function getRandomInt(min, max) {
 //Koniec wyboru losowej liczby
 debugger
 for (i = 0; i < wyniki.length; i += 1) {
-    var rand = wyniki[Math.floor(Math.random() * wyniki.length)];
+    var rand = wyniki[i + 1];
     $('td').eq(rand).prepend('<img id = "house" class="img-responsive" src="https://thumbs.dreamstime.com/x/ikona-liczny-sklep-16435924.jpg"/>');
 }
 
