@@ -1,6 +1,7 @@
 body {
     background-color: #21324f;
-    margin: 0px
+    margin: 0px;
+
 }
 
 .borderspace {
@@ -445,16 +446,16 @@ h1.premiera {
 @media screen and (max-width: 767px) {
 
     .zajawkanaglowek {
-        font-size: 27px;
+        font-size: 24px;
         font-weight: 500;
-        top: 15%;
+        top: 7%;
         color: white;
     }
 
     .zajawkaparagraf {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        top: 30%;
+        top: 16%;
         color: white;
     }
 }
@@ -464,32 +465,50 @@ h1.premiera {
     .zajawkanaglowek {
         font-size: 44px;
         font-weight: 700;
-        top: 18%;
+        top: 8%;
         color: white;
     }
 
     .zajawkaparagraf {
         font-size: 33px;
         font-weight: 600;
-        top: 54%;
+        top: 24%;
         color: white;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 
 
     .zajawkanaglowek {
-        font-size: 54px;
+        font-size: 69px;
         font-weight: 700;
-        top: 21%;
+        top: 9%;
         color: white;
     }
 
     .zajawkaparagraf {
-        font-size: 36px;
+        font-size: 49px;
         font-weight: 600;
-        top: 63%;
+        top: 31%;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    .zajawkanaglowek {
+        font-size: 74px;
+        font-weight: 700;
+        top: 10%;
+        color: white;
+    }
+
+    .zajawkaparagraf {
+        font-size: 55px;
+        font-weight: 600;
+        top: 36%;
         color: white;
     }
 }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    td {
+      border: 1px solid black;
+      background: blue;
+      height: 16px;
+      width: 16px;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <title>Game</title>
+</head>
+<body>
+<script src="jquery-2.1.4.min.js"></script>
+<script>
+
+  $('body').prepend("<table></table>");
+  for (var i = 0; i <= 10; i += 1) {
+    $('table').append('<tr></tr>')
+  }
+  for (var j = 0; j < 10; j++) {
+    $('tr').append('<td></td>')
+  }
+
+</script>
+
+</body>
+</html>
