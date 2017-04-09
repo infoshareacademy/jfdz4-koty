@@ -661,3 +661,22 @@ button.collapsed, button.navbar-toggle {
 .icons > h1 {
     font-size: x-large;
 }
+
+table {
+    background: url(http://www.visitbydgoszcz.pl/images/stories/pdfy/mapa_rysunkowa-bci-1.jpg) no-repeat;
+
+}
+td {
+    height: 25px;
+    width: 25px;
+    border: 1px black solid;
+;
+}
+tr {
+    width: auto;
+}
+
+table {
+    width: 600px;
+    height: 453px;
+}
