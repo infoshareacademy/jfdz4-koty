@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width initial-scale=1">
- <title>Koty - Pomocnik zakupowy</title>
- <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="cookies.css">
- <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <title>Koty - Pomocnik zakupowy</title>
+  <link rel="stylesheet" href="animated.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cookies.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="400">
 
@@ -43,8 +44,11 @@
 <!--Koniec Header Wyszukiwarka Loga i Lapa-->
 
 <!--Zajawka-->
+<!--Dlaczego id?-->
+
+
 <Header id="zajawka" class="zajawka">
- <div style="background-color: black;
+  <div style="background-color: black;
     width: 100%;
     height: 10px;">
  </div>
@@ -59,15 +63,17 @@
   Interesują Cię tylko najkorzystniejsze oferty?
   Wyszukaj produkt w najniższej cenie.
  </div>
+
 </Header>
 <!--Koniec Zajawki-->
 
 <!--Ikony+Kolumny-->
 <div id="funkcje" class="container-fluid colorForFunctions">
-<div class="container">
+  <div class="container">
 
   <!--Icons for screen-->
  <div class="row">
+   <div class="aniview" data-av-animation="fadeInLeft">
   <div class="col-lg-3 col-md-3 col-sm-3 marginForIcons">
    <div class="icons text-center border">
    <img class="img-responsive"
@@ -76,6 +82,9 @@
    <p>Wpisz w wyszukiwarce nazwę produktu, a wyświetlimy Ci najkorzystniejszą dla Ciebie opcje</p>
    </div>
   </div>
+   </div>
+
+    <div class="aniview" data-av-animation="fadeInLeft">
   <div class="col-lg-3 col-md-3 col-sm-3 marginForIcons">
    <div class="icons text-center border">
      <img class="img-responsive"
@@ -85,25 +94,31 @@
     sposób dostawy towaru</p>
    </div>
   </div>
-
+    </div>
+      <div class="aniview" data-av-animation="fadeInRight">
  <div class="col-lg-3 col-md-3 col-sm-3 marginForIcons">
 
    <div class="icons text-center border"><img
      class="img-responsive"
      src="icons/wallet.svg" alt="">
    <h1>Płacisz</h1>
-   <p>Wystarczy, że podasz numer swojej karty kredytowej. Automatycznie zakończymy transkację.</p></div>
+   <p>Wystarczy, że podasz numer swojej karty kredytowej. Automatycznie zakończymy transkację.</p>
+   </div>
  </div>
+      </div>
+        <div class="aniview" data-av-animation="fadeInRight">
   <div class="col-lg-3 col-md-3 col-sm-3 marginForIcons">
    <div class="icons text-center border">
      <img class="img-responsive"
           src="icons/delivery-truck.svg" alt="">
    <h1>Odbierasz</h1>
-   <p>W zależności od wybranej przez Ciebie metody dostawy Twój produkt dostarczany jest w ciągu 48h.</p></div>
+     <p>W zależności od wybranej przez Ciebie metody dostawy Twój produkt dostarczany jest w ciągu 48h.</p>
+   </div>
+  </div>
  </div>
 </div>
 </div>
-</div>
+
 
 
 <!--Premiera-->
@@ -118,11 +133,11 @@
     <input type="text" class="form-control email" name="adres e-mail">
 
     <br>
-    <button type="submit" class="btn btn-warning width">
+     <button type="button" id="buttonPremiera" class="btn btn-warning width">
      <h1 class="premiera">Zapisz</h1></button>
 
-   </form>
-  </div>
+  </form>
+ </div>
 
  </div>
 
@@ -133,84 +148,95 @@
 <!--Nasze zdjecia i opisy-->
 <div id="autorzy"
      class="container-fluid headabout">
- <div class="container">
-  <h2 class="textabout">
-   Autorzy
-  </h2>
-
-  <div class="about col-xs-12 col-sm-6 col-md-3">
-   <div class="photo-container">
-    <div class="card">
-     <div class="frontside gosiabackgroundimg"></div>
-     <div class="backside"><a href="../StronaWojtek"><img class="socialicons" src="icons/linkedin-logo.svg" alt=""></a>
-      <img class="socialicons" src="icons/home.svg" alt=""></a></div>
+  <div class="container">
+    <div class="aniview" data-av-animation="flip">
+      <h2 class="textabout">
+        Autorzy
+      </h2>
     </div>
-   </div>
-   </a>
-   <p>GOSIA GASZEWSKA</p>
-   <p>"Życie, które mi dano, jest tylko opowieścią, ale jak ją opowiem, to już moja sprawa."
-    Marek Hłasko</p>
-  </div>
-
-  <div class="about col-xs-12 col-sm-6 col-md-3">
-   <div class="photo-container">
-
-    <div class="card">
-     <a href="../stronaGosia/index.html">
-      <div class="frontside michalpbackgroundimg"></div>
-     </a>
-     <div class="backside"><a href="../StronaWojtek"><img class="socialicons" src="icons/linkedin-logo.svg" alt=""></a>
-      <img class="socialicons" src="icons/home.svg" alt=""></a></div>
+    <div class="aniview" data-av-animation="slideInLeft">
+      <div class=" about col-xs-12 col-sm-6 col-md-3">
+        <div class="photo-container">
+          <div class="card">
+            <div class="frontside gosiabackgroundimg"></div>
+            <div class="backside"><a href="../StronaWojtek"><img class="socialicons" src="icons/linkedin-logo.svg"
+                                                                 alt=""></a>
+              <img class="socialicons" src="icons/home.svg" alt=""></a></div>
+          </div>
+        </div>
+        </a>
+        <p>GOSIA GASZEWSKA</p>
+        <p>"Życie, które mi dano, jest tylko opowieścią, ale jak ją opowiem, to już moja sprawa."
+          Marek Hłasko</p>
+      </div>
     </div>
-   </div>
+    <div class="aniview" data-av-animation="slideInLeft">
+      <div class="about col-xs-12 col-sm-6 col-md-3">
+        <div class="photo-container">
 
-   <p>MICHAŁ PAWLIKOWSKI</p>
-   <p>Miłośnik przyrody, potrafi cieszyć się z małych rzeczy, nałogowo pije herbatę i kawę oraz spożywa
-    czekoladę.</p>
-  </div>
+          <div class="card">
+            <a href="../stronaGosia/index.html">
+              <div class="frontside michalpbackgroundimg"></div>
+            </a>
+            <div class="backside"><a href="../StronaWojtek"><img class="socialicons" src="icons/linkedin-logo.svg"
+                                                                 alt=""></a>
+              <img class="socialicons" src="icons/home.svg" alt=""></a></div>
+          </div>
+        </div>
 
-  <div class="about col-xs-12 col-sm-6 col-md-3">
-   <div class="photo-container">
-    <div class="card">
-     <div class="frontside michalkbackgroundimg"></div>
-     <div class="backside"><a href="../StronaWojtek"><img class="socialicons" src="icons/linkedin-logo.svg" alt=""></a>
-      <img class="socialicons" src="icons/home.svg" alt=""></a></div>
+        <p>MICHAŁ PAWLIKOWSKI</p>
+        <p>Miłośnik przyrody, potrafi cieszyć się z małych rzeczy, nałogowo pije herbatę i kawę oraz spożywa
+          czekoladę.</p>
+      </div>
     </div>
-   </div>
-   </a>
-   <p>MICHAŁ KWESTOROWSKI</p>
-   <p>Pasjonat technologi komputerowej. Tancerz amator. Samozwańczy nauczyciel filozofii dla znajomych.</p>
-  </div>
-
-  <div class="about col-xs-12 col-sm-6 col-md-3">
-   <div class="photo-container">
-    <div class="card">
-     <div class="frontside wojtekbackgroundimg"></div>
-     <div class="backside"><a href="../StronaWojtek"><img class="socialicons" src="icons/linkedin-logo.svg" alt=""></a>
-      <a href="../StronaWojtek"><img class="socialicons" src="icons/home.svg" alt=""></a></div>
+    <div class="aniview" data-av-animation="slideInRight">
+      <div class="about col-xs-12 col-sm-6 col-md-3">
+        <div class="photo-container">
+          <div class="card">
+            <div class="frontside michalkbackgroundimg"></div>
+            <div class="backside"><a href="../StronaWojtek"><img class="socialicons" src="icons/linkedin-logo.svg"
+                                                                 alt=""></a>
+              <img class="socialicons" src="icons/home.svg" alt=""></a></div>
+          </div>
+        </div>
+        </a>
+        <p>MICHAŁ KWESTOROWSKI</p>
+        <p>Pasjonat technologi komputerowej. Tancerz amator. Samozwańczy nauczyciel filozofii dla znajomych.</p>
+      </div>
     </div>
-   </div>
-   </a>
-   <p>WOJTEK KASJANIUK</p>
-   <p>On podobno naprawdę ma ten kod.
-    <a href="https://www.youtube.com/watch?v=YdWo5zbbGnY"
-       target="_blank">
-     https://www.youtube.com/watch?v=YdWo5zbbGnY
-    </a>
-   </p>
-  </div>
+    <div class="aniview" data-av-animation="slideInRight">
+      <div class="about col-xs-12 col-sm-6 col-md-3">
+        <div class="photo-container">
+          <div class="card">
+            <div class="frontside wojtekbackgroundimg"></div>
+            <div class="backside"><a href="../StronaWojtek"><img class="socialicons" src="icons/linkedin-logo.svg"
+                                                                 alt=""></a>
+              <a href="../StronaWojtek"><img class="socialicons" src="icons/home.svg" alt=""></a></div>
+          </div>
+        </div>
+        </a>
+        <p>WOJTEK KASJANIUK</p>
+        <p>On podobno naprawdę ma ten kod.
+          <a href="https://www.youtube.com/watch?v=YdWo5zbbGnY"
+             target="_blank">
+            https://www.youtube.com/watch?v=YdWo5zbbGnY
+          </a>
+        </p>
+      </div>
+    </div>
 
-  <div class="clearfix"></div>
- </div>
+    <div class="clearfix"></div>
+  </div>
 </div>
 <!--Koniec naszych zdjec i opisow-->
 
 <!--Latajace menu facebooka po prawej stronie na dole-->
 <div class="facebook">
- <a href="http://facebook.pl"
-    target="_blank">
-  <img style="border-radius: 25px; width: 100%" src="facebook.jpg">
- </a>
+  <a href="http://facebook.pl"
+     target="_blank">
+    <img style="border-radius: 25px; width: 100%" src="facebook.jpg">
+    <!--Dlaczego stylowane tutaj?-->
+  </a>
 </div>
 <!--Koniec latajacego menu facebooka po prawej stronie na dole-->
 
@@ -274,15 +300,22 @@
   <div class="col-sm-1">
   </div>
 
+   <div id="cosTam" style="display: none">
+
+   </div>
+
  </footer>
 </div>
 <!--Koniec Footera stopki adresowej-->
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+          integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
 <script src="js/cookies.js"></script>
 <script src="js/scroll.js"></script>
+<script src="js/jquery.aniview.js"></script>
 
 </body>
 </html>
