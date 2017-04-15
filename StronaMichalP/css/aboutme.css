@@ -30,8 +30,9 @@ body {
     text-align: center;
 }
 
-.font10 {
-    font-size: 10px;
+.font14 {
+    font-size: 14px;
+    text-decoration: underline;
 }
 
 .github {
@@ -69,7 +70,7 @@ body {
     color: #5f9ea0;
 }
 
-.linkblack {
+.linkBlack {
     color: black;
 }
 
@@ -92,8 +93,8 @@ body {
     vertical-align: sub;
 }
 
-.marginbottom {
-    margin-bottom: 88px;
+.marginBottom {
+    margin-bottom: 66px;
 }
 
 .margintop {
