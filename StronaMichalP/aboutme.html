@@ -114,7 +114,7 @@
     </div>
 
     <div id="footer">
-        <a id="toTop" class="linkBlack font14">powrót na początek strony</a>
+        <button id="toTop" class="font14">powrót na początek strony</button>
     </div>
 
 </div>
@@ -122,6 +122,9 @@
 <script>
     $('#toTop').click(function () {
         $('body').scrollTop(0);
+    });
+    $('#font14').mouseover(function() {
+        $(this).show();
     });
 </script>
 

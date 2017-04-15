@@ -32,8 +32,13 @@ body {
 
 .font14 {
     font-size: 14px;
-    text-decoration: underline;
-}
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #11425c;
+    color: white;
+    opacity: 0.8;
+    }
 
 .github {
     float: left;
