@@ -119,11 +119,11 @@ body {
     float: left;
     margin: 1px;
     background-color: black;
-    }
+        }
 
-.menuHorizont:hover {
-    background-color: #5f9ea0;
-}
+/*.menuHorizont:hover {*/
+    /*background-color: #5f9ea0;*/
+    /*}*/
 
 .block {
     display: block;
@@ -131,4 +131,10 @@ body {
     text-align: center;
     width: 88px;
     padding: 22px;
+    text-decoration: none;
+}
+
+.block:hover {
+    background-color: #5f9ea0;
+    text-decoration: underline;
 }
