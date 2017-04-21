@@ -81,11 +81,11 @@ body {
     color: black;
 }
 
-.listalinkow {
+.linksList {
     list-style-type: none;
 }
 
-.listaprojektow {
+.projectsList {
     list-style-type: disc;
 }
 
@@ -118,15 +118,11 @@ body {
     display: block;
 }
 
-.menuHorizont {
+.menuHorizon {
     float: left;
     margin: 1px;
     background-color: black;
 }
-
-/*.menuHorizont:hover {*/
-/*background-color: #5f9ea0;*/
-/*}*/
 
 .block {
     display: block;
