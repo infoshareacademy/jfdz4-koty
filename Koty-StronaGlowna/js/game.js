@@ -1,6 +1,4 @@
-/**
- * Created by wojtekkas on 19.03.17.
- */
+
 
 
 $("#cosTam").dialog({autoOpen: false});
@@ -10,11 +8,12 @@ $("#buttonPremiera").click(function () {
 });
 
 
-$('#cosTam').prepend("<table id='gameTable'></table>");
+$('#cosTam').prepend("<table id='game_table'></table>");
 
 function getBoard() {
-    return $('#game-board');
+    return $('#game_table');
 }
+
 
 function createBoard(size) {
     let $row, $cell;
@@ -24,9 +23,12 @@ function createBoard(size) {
         $board.append($row);
         for (let col = 1; col <= size; col++) {
             $cell = $('<td>');
-            $row.attr(row);
-            $cell.attr(col);
             $row.append($cell);
+            $('table td').each(function (index) {
+                $(this).attr('id', index)
+            })
         }
     }
 }
+
+createBoard(5);
