@@ -45,5 +45,25 @@ for (i = 0; i < wyniki.length; i += 1) {
 var countDownTime = new Date(10000).getTime();
 
 
+var now = new Date().getTime();
+
+
+var x = []
+
+x.map(function () {
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 
