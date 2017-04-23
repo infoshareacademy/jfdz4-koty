@@ -45,16 +45,8 @@ function createBoard(size) {
 function czasownik(){
     var sec = 15;
     setInterval(function(){
-
         document.getElementById("timer").innerHTML = "0 : " + sec ;
-        sec--;
-        if(sec == 0)
-        {
-            hou--;
-            sec = 15;
-
-        }
-    },1000);
+        sec-- },1000);
 }
 
 
