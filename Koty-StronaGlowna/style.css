@@ -701,3 +701,9 @@ table {
     width: 600px;
     height: 453px;
 }
+
+
+#house {
+    max-width: 120px;
+    max-height: 90px;
+}

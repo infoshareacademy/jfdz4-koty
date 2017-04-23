@@ -41,8 +41,33 @@ for (i = -1; i < wyniki.length; i += 1) {
 }
 
 
+for (k = 0; i < wyniki.length; i += 1) {
+    var japk = wyniki[i];
+    $('td').eq(rand).prepend('<img id = "house" class="img-responsive" src="https://thumbs.dreamstime.com/x/ikona-liczny-sklep-16435924.jpg"/>');
+}
+
 
 var countDownTime = new Date(10000).getTime();
+
+
+var now = new Date().getTime();
+
+
+var x = []
+
+x.map(function () {
+
+})
+
+
+
+
+
+
+
+
+
+
 
 
 
