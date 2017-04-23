@@ -11,7 +11,7 @@ body {
 
 .zajawka {
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 81px;
 }
 
 .heightOfButtons {
@@ -449,14 +449,14 @@ h1.premiera {
     .zajawkanaglowek {
         font-size: 24px;
         font-weight: 500;
-        top: 7%;
+        top: 10%;
         color: white;
     }
 
     .zajawkaparagraf {
-        font-size: 16px;
-        font-weight: 400;
-        top: 16%;
+        font-size: 15px;
+        font-weight: 300;
+        top: 19%;
         color: white;
     }
 }
@@ -707,3 +707,9 @@ table {
     max-height: 90px;
 }
 
+.input-newsletter {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 410px;
+    min-width: 172px;
+}
