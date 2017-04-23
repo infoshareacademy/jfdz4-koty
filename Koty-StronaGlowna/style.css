@@ -163,7 +163,9 @@ input::-webkit-input-placeholder {
 
 .headabout {
     font-family: Cabin;
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    /*background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);*/
+    background: url(tlo.jpg);
+    background-size: cover;
 }
 
 .about {

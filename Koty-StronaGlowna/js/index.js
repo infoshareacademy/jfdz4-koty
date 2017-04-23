@@ -8,7 +8,7 @@ $("#buttonPremiera").click(function () {
     $("div[role='dialog']").css('left', "25%");
 });
 $('#cosTam').prepend("<table></table>");
-for (i = 0; i <= 17; i += 1) {
+for (i = 0; i <= 15; i += 1) {
     $('table').append('<tr></tr>');
 }
 ;
@@ -35,7 +35,7 @@ function getRandomInt(min, max) {
     var randomNumberForCells = Math.floor(Math.random() * (max - min)) + min;
     return randomNumberForCells;
 };
-for (i = 0; i < wyniki.length; i += 1) {
+for (i = -1; i < wyniki.length; i += 1) {
     var rand = wyniki[i + 1];
     $('td').eq(rand).prepend('<img id = "house" class="img-responsive" src="https://thumbs.dreamstime.com/x/ikona-liczny-sklep-16435924.jpg"/>');
 }
