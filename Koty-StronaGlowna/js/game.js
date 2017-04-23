@@ -8,11 +8,12 @@ $("#buttonPremiera").click(function () {
     $('#gameStatistic').css('display', 'none');
     $("#oknoGry").dialog("open").css('width', '840').css('background-color', '#21324f').css('border', '2px solid black');
     $("div[role='dialog']").css('left', "20%");
-    $('#overlayWybuch').fadeIn(function(){ setTimeout(function(){$('#overlayWybuch').fadeOut() }, 1000) } );
+    $('#overlayWybuch').fadeIn(function(){ setTimeout(function(){$('#overlayWybuch').fadeOut() }, 1200) } );
 });
 
 $('#gameStartButton').click(function () {
 creatingGame();
+czasownik();
     $('#gameStartButton').css('display', 'none');
     $('#gameStatistic').css('display', 'block')
 });
@@ -41,12 +42,29 @@ function createBoard(size) {
     }
 }
 
+function czasownik(){
+    var sec = 15;
+    setInterval(function(){
+
+        document.getElementById("timer").innerHTML = "0 : " + sec ;
+        sec--;
+        if(sec == 0)
+        {
+            hou--;
+            sec = 15;
+
+        }
+    },1000);
+}
 
 
-function getRandomInt(min, max) {
+
+
+
+    function getRandomInt(min, max) {
     let randomNumberForCells = Math.floor(Math.random() * (max - min)) + min;
     return randomNumberForCells;
-};
+}
 
 
 createBoard(5);
