@@ -1,11 +1,14 @@
 
 
 
-$("#oknoGry").dialog({autoOpen: false});
+$("#oknoGry").dialog({autoOpen: false, appendTo: "#footer"});
+
+
 $("#buttonPremiera").click(function () {
     $('#gameStatistic').css('display', 'none');
     $("#oknoGry").dialog("open").css('width', '840').css('background-color', '#21324f').css('border', '2px solid black');
     $("div[role='dialog']").css('left', "20%");
+    $('#overlayWybuch').fadeIn(function(){ setTimeout(function(){$('#overlayWybuch').fadeOut() }, 1000) } );
 });
 
 $('#gameStartButton').click(function () {

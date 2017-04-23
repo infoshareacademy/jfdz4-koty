@@ -158,7 +158,6 @@ input::-webkit-input-placeholder {
     background-color: black;
     color: white;
     font-family: Cabin;
-    overflow: auto;
 }
 
 .headabout {
