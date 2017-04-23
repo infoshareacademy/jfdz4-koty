@@ -1,3 +1,53 @@
-/**
- * Created by wojtekkas on 19.03.17.
- */
+
+
+
+$("#cosTam").dialog({autoOpen: false});
+$("#buttonPremiera").click(function () {
+    $("#cosTam").dialog("open");
+    $("div[role='dialog']").css('left', "25%");
+});
+
+
+$('#cosTam').prepend("<table id='game_table'></table>");
+
+function getBoard() {
+    return $('#game_table');
+}
+
+
+function createBoard(size) {
+    let $row, $cell;
+    let $board = getBoard();
+    for (let row = 1; row <= size; row++) {
+        $row = $('<tr>');
+        $board.append($row);
+        for (let col = 1; col <= size; col++) {
+            $cell = $('<td>');
+            $row.append($cell);
+            $('table td').each(function (index) {
+                $(this).attr('id', index)
+            })
+        }
+    }
+}
+
+
+
+function getRandomInt(min, max) {
+    let randomNumberForCells = Math.floor(Math.random() * (max - min)) + min;
+    return randomNumberForCells;
+};
+
+
+createBoard(5);
+
+
+
+let wyniki = [];
+for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
+    wyniki.push(i)
+}
+for (i = 0; i < wyniki.length; i += 1) {
+    let rand = wyniki[i + 1];
+    $('td').eq(rand).prepend('<img id = "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>');
+}
