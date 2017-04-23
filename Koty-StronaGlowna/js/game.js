@@ -3,12 +3,12 @@
 
 $("#cosTam").dialog({autoOpen: false});
 $("#buttonPremiera").click(function () {
-    $("#cosTam").dialog("open");
-    $("div[role='dialog']").css('left', "25%");
+    $("#cosTam").dialog("open").css('width', '840').css('background-color', '#21324f').css('border', '2px solid black');
+    $("div[role='dialog']").css('left', "20%");
 });
 
 
-$('#cosTam').prepend("<table id='game_table'></table>");
+$('#cosTam2').prepend("<table id='game_table'></table>");
 
 function getBoard() {
     return $('#game_table');
