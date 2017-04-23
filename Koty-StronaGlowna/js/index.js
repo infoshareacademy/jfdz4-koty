@@ -5,7 +5,7 @@
 $("#cosTam").dialog({autoOpen: false});
 $("#buttonPremiera").click(function () {
     $("#cosTam").dialog("open");
-    $("div[role='dialog']").css('left', "25%");
+    $("div[role='dialog']").css('left', "20%");
 });
 $('#cosTam').prepend("<table></table>");
 for (i = 0; i <= 15; i += 1) {
