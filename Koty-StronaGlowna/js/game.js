@@ -31,4 +31,23 @@ function createBoard(size) {
     }
 }
 
+
+
+function getRandomInt(min, max) {
+    let randomNumberForCells = Math.floor(Math.random() * (max - min)) + min;
+    return randomNumberForCells;
+};
+
+
 createBoard(5);
+
+
+
+let wyniki = [];
+for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
+    wyniki.push(i)
+}
+for (i = 0; i < wyniki.length; i += 1) {
+    let rand = wyniki[i + 1];
+    $('td').eq(rand).prepend('<img id = "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>');
+}
