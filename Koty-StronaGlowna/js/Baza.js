@@ -18,4 +18,5 @@ let Suszarka = new Products('Suszarka', 59, 5);
 let Mikrofala = new Products('Mikrofalówka', 350, 7);
 let Aparat = new Products('Aparat', 1799, 9);
 let Dron = new Products('Dron', 799, 2);
+let Smartfon = new Products('Smartphone', 1399, 4);
 
