@@ -1,19 +1,20 @@
-
-
-
-$("#oknoGry").dialog({autoOpen: false, appendTo: "#footer"});
+$("#gameFrame").dialog({autoOpen: false, appendTo: "#footer"});
 
 
 $("#buttonPremiera").click(function () {
     $('#gameStatistic').css('display', 'none');
-    $("#oknoGry").dialog("open").css('width', '840').css('background-color', '#21324f').css('border', '2px solid black');
+    $("#gameFrame").dialog("open").css('width', '840').css('background-color', '#21324f').css('border', '2px solid black');
     $("div[role='dialog']").css('left', "20%");
-    $('#overlayWybuch').fadeIn(function(){ setTimeout(function(){$('#overlayWybuch').fadeOut() }, 1200) } );
+    $('#overlayWybuch').fadeIn(() => {
+        setTimeout(function () {
+            $('#overlayWybuch').fadeOut()
+        }, 1200)
+    });
 });
 
-$('#gameStartButton').click(function () {
+$('#gameStartButton').click(() => {
 creatingGame();
-czasownik();
+    timer();
     $('#gameStartButton').css('display', 'none');
     $('#gameStatistic').css('display', 'block')
 });
@@ -42,18 +43,8 @@ function createBoard(size) {
     }
 }
 
-function czasownik(){
-    var sec = 15;
-    setInterval(function(){
-        document.getElementById("timer").innerHTML = "0 : " + sec ;
-        sec-- },1000);
-}
 
-
-
-
-
-    function getRandomInt(min, max) {
+function getRandomInt(min, max) {
     let randomNumberForCells = Math.floor(Math.random() * (max - min)) + min;
     return randomNumberForCells;
 }
@@ -69,6 +60,19 @@ for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
 }
 for (i = 0; i < wyniki.length; i += 1) {
     let rand = wyniki[i + 1];
-    $('td').eq(rand).prepend('<img id = "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>');
+    $('td').eq(rand).prepend('<img class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>');
 }
+};
+
+
+function timer() {
+    let sec = 15;
+    let intervalForTimer = setInterval(() => {
+        document.getElementById("timer").innerHTML = "0 : " + sec;
+        sec -= 1
+    }, 1000);
+    if (sec === 0) {
+        clearInterval(intervalForTimer)
+    }
+
 };
