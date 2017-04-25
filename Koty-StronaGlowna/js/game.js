@@ -70,16 +70,20 @@ function timer() {
         startTime()
     }, 1000);
     let countSec = 10;
+    let divTimer = document.getElementById('timer');
+    let pTimerEnd = document.getElementById('timerEnd');
 
     function startTime() {
         if (countSec === 0) {
         clearInterval(intervalForTimer)
+            divTimer.style.display = 'none';
+            pTimerEnd.textContent = 'Czas się skończył spróbuj ponownie'
 
         } else {
             countSec--;
         }
 
-        document.getElementById('timer').innerHTML = "0:" + countSec;
+        divTimer.innerHTML = "0:" + countSec;
     }
 
 };
