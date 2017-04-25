@@ -58,21 +58,28 @@ let wyniki = [];
 for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
     wyniki.push(i)
 }
-for (i = 0; i < wyniki.length; i += 1) {
-    let rand = wyniki[i + 1];
+    for (j = 0; j < wyniki.length; j += 1) {
+        let rand = wyniki[j + 1];
     $('td').eq(rand).prepend('<img class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>');
 }
 };
 
 
 function timer() {
-    let sec = 15;
-    let intervalForTimer = setInterval(() => {
-        document.getElementById("timer").innerHTML = "0 : " + sec;
-        sec -= 1
+    let intervalForTimer = setInterval(function () {
+        startTime()
     }, 1000);
-    if (sec === 0) {
+    let countSec = 10;
+
+    function startTime() {
+        if (countSec === 0) {
         clearInterval(intervalForTimer)
+
+        } else {
+            countSec--;
+        }
+
+        document.getElementById('timer').innerHTML = "0:" + countSec;
     }
 
 };
