@@ -60,7 +60,8 @@ for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
 }
     for (j = 0; j < wyniki.length; j += 1) {
         let rand = wyniki[j + 1];
-    $('td').eq(rand).prepend('<img class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>');
+        $('td').eq(rand).prepend('<img class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>');
+        $('td').eq(rand).innerText = Odkurzacz.name + " " + Odkurzacz.price;
 }
 };
 
@@ -75,7 +76,7 @@ function timer() {
 
     function startTime() {
         if (countSec === 0) {
-        clearInterval(intervalForTimer)
+            clearInterval(intervalForTimer);
             divTimer.style.display = 'none';
             pTimerEnd.textContent = 'Czas się skończył spróbuj ponownie'
 
