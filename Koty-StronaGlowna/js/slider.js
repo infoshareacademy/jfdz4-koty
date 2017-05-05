@@ -4,10 +4,10 @@
 
 
 let imagesArray = {
-    first: '',
-    second: '',
-    third: '',
-    fourth: ''
+    first: 'images/bags.jpg',
+    second: 'images/cds.jpg',
+    third: 'images/cookie.jpg',
+    fourth: 'images/smartphone.jpg'
 }
 
 
@@ -15,7 +15,7 @@ let imagesArray = {
 function intervalForSlider() {
 
     let slider = setInterval(function () {
-        $('.imageZajawka').attr('src', imagesArray.pierwsze);
+        $('.imageZajawka').attr('src', imagesArray.first);
     }, 10000)
 }
 
