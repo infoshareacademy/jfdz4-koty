@@ -5,11 +5,11 @@ $("#buttonPremiera").click(function () {
     $('#gameStatistic').css('display', 'none');
     $("#gameFrame").dialog("open").css('width', '840').css('background-color', '#21324f').css('border', '2px solid black');
     $("div[role='dialog']").css('left', "20%");
-    // $('#overlayExplosion').fadeIn(() => {
-    //     setTimeout(function () {
-    //         $('#overlayExplosion').fadeOut()
-    //     }, 1200)
-    // });
+    $('#overlayExplosion').fadeIn(() => {
+        setTimeout(function () {
+            $('#overlayExplosion').fadeOut()
+        }, 1200)
+    });
 });
 
 $('#gameStartButton').click(() => {
@@ -68,7 +68,7 @@ for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
         let randomcenaOdkurzacz = Odkurzacz.price + getRandomInt(0,200);
         cellForHome.attr('price', randomcenaOdkurzacz);
         cellForHome
-            .prepend('<img style="max-width: 20%; height: auto;" class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
+            .prepend('<img style="max-width: 20%; height: auto;" class="house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
             .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Odkurzacz.name + " " + randomcenaOdkurzacz + "zł" + '</p>');
 
     }
@@ -142,6 +142,37 @@ function creatingGame2() {
         $('#ilosczporownywarka').html(iloscporownywarka + " zł");
         $('img', 'td').remove();
         $('p', 'td').remove();
+        creatingGame4();
+    });
+};
+
+function creatingGame4() {
+    let wyniki = [];
+    for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
+        wyniki.push(i)
+    }
+    for (i = 0; i < wyniki.length; i += 1) {
+        let rand = wyniki[i + 1];
+        let cellForHome = $('td').eq(rand);
+        let randomcenaMikrofala = Mikrofala.price + getRandomInt(0,200);
+        cellForHome.attr('price', randomcenaMikrofala);
+        cellForHome
+            .prepend('<img style="max-width: 20%; height: auto;" class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
+            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Mikrofala.name + " " + randomcenaMikrofala + "zł" + '</p>');
+
+
+
+    }
+    $('td[price]').off('click').click(function() {
+        var randomcenaMikrofala = $(this).attr('price');
+        zakupy += parseInt(randomcenaMikrofala);
+        ilosckupionych++;
+        iloscporownywarka += Mikrofala.price;
+        $('#zakupyzrobione').html(zakupy + " zł");
+        $('#ilosckupionych').html(ilosckupionych + " przedmioty!");
+        $('#ilosczporownywarka').html(iloscporownywarka + " zł");
+        $('img', 'td').remove();
+        $('p', 'td').remove();
     });
 };
 
@@ -151,7 +182,7 @@ function timer() {
     let intervalForTimer = setInterval(function () {
         startTime()
     }, 1000);
-    let countSec = 5;
+    let countSec = 800;
     let divTimer = document.getElementById('timer');
     let pTimerEnd = document.getElementById('timerEnd');
 
