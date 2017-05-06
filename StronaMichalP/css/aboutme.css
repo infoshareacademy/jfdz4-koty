@@ -4,13 +4,15 @@ body {
 }
 
 .container {
-    width: 100%;
-}
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
-.logo  {
+.logo {
     text-align: center;
     font-variant: small-caps;
-    }
+}
 
 .fotodomek {
     width: 100%;
@@ -30,8 +32,14 @@ body {
     text-align: center;
 }
 
-.font10 {
-    font-size: 10px;
+.font14 {
+    font-size: 14px;
+    position: fixed;
+    right: 2px;
+    bottom: 2px;
+    background: #11425c;
+    color: white;
+    /*opacity: 0.9;*/
 }
 
 .github {
@@ -52,7 +60,7 @@ body {
     padding-bottom: 10px;
 }
 
-.BlackLinkDiv:hover{
+.BlackLinkDiv:hover {
     color: #5f9ea0;
 }
 
@@ -69,15 +77,15 @@ body {
     color: #5f9ea0;
 }
 
-.linkblack {
+.linkBlack {
     color: black;
 }
 
-.listalinkow {
+.linksList {
     list-style-type: none;
 }
 
-.listaprojektow {
+.projectsList {
     list-style-type: disc;
 }
 
@@ -92,13 +100,14 @@ body {
     vertical-align: sub;
 }
 
-.marginbottom {
-    margin-bottom: 88px;
+.marginBottom {
+    margin-bottom: 66px;
 }
 
 .margintop {
     margin-top: 44px;
 }
+
 .DivClearBoth {
     clear: both;
     margin-bottom: 88px;
@@ -107,22 +116,28 @@ body {
 .menuOver {
     overflow: auto;
     display: block;
-   }
+}
 
-.menuHorizont {
+.menuHorizon {
     float: left;
     margin: 1px;
     background-color: black;
-    }
-
-.menuHorizont:hover {
-    background-color: #5f9ea0;
 }
 
 .block {
     display: block;
     color: white;
     text-align: center;
-    width: 88px;
+    width: 122px;
     padding: 22px;
+    text-decoration: none;
+}
+
+.block:hover {
+    background-color: #5f9ea0;
+    text-decoration: underline;
+}
+
+.contentDiv {
+    width: 80%;
 }
