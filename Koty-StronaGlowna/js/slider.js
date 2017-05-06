@@ -40,6 +40,7 @@ function timerForSlider() {
             else if (countSecTimer === 0
             ) {
                 $('.imageZajawka').attr('src', imagesArray.fourth);
+                clearInterval(intervalForSlider);
                 timerForSlider();
             }
             else {
