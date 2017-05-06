@@ -51,16 +51,21 @@
   <div class='zajawkaBackground'>
  </div>
  <img src="images/openshop-pano.jpg"
-      class="zdjeciezajawka"
+      id=""
+      class="imageZajawka"
       alt="Szał zakupów">
  <div class="zajawkanaglowek">
   P<span class="oTytulowe">O</span>M<span class="oTytulowe">O</span>CNIK ZAKUP<span class="oTytulowe">O</span>WY
  </div>
  <div class="zajawkaparagraf">
-  Nie chcesz przepłacać?
-  Interesują Cię tylko najkorzystniejsze oferty?
-  Wyszukaj produkt w najniższej cenie.
+   <h1>
+     <a href="" class="typewrite zajawkaparagraf" data-period="2000"
+        data-type='[ "Nie chcesz przepłacać?", "Interesują Cię tylko najkorzystniejsze oferty?", "Wyszukaj produkt w najniższej cenie."]'>
+       <span class="wrap"></span>
+     </a>
+   </h1>
  </div>
+
 
 </Header>
 <!--Koniec Zajawki-->
@@ -128,7 +133,7 @@
   <br>
   <div class="col-xs-12>">
    <form class="form-group center premiera">
-    <input type="email" align="center" class="form-control input-newsletter email" value="adres e-mail:">
+     <input type="email" align="center" class="form-control input-newsletter email" placeholder="Adres e-mail">
 
     <br>
      <button type="button" id="buttonPremiera" class="btn btn-warning width">
@@ -310,7 +315,7 @@
            <p>Spóźniłeś się z kupnem: <strong> 4</strong>  :(</p>
            <p>Wydałeś już w sumie: <strong>1434zł</strong></p>
            <p> a mogłeś z naszą porównywarką wydać...: <strong>1218zł</strong></p>
-           <p>Czas do końca zakupów: </p>
+           <p id="timerEnd">Czas do końca zakupów: </p>
 
            <h3 id="timer"></h3>
          </div>
@@ -338,6 +343,8 @@
 <script src="js/jquery.aniview.js"></script>
   <script src="js/game.js"></script>
 <script src="js/Baza.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/typewritting.js"></script>
 
 </body>
 </html>
