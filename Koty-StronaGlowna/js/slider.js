@@ -11,12 +11,41 @@ let imagesArray = {
 }
 
 
+// function intervalForSlider() {
+//
+//     let slider = setInterval(function () {
+//         $('.imageZajawka').attr('src', imagesArray.first);
+//     }, 10000)
+// }
+//
+// intervalForSlider();
 
-function intervalForSlider() {
+timerForSlider();
 
-    let slider = setInterval(function () {
-        $('.imageZajawka').attr('src', imagesArray.first);
-    }, 10000)
+function timerForSlider() {
+    let countSecTimer = 20;
+    let intervalForSlider = setInterval(function () {
+            if (countSecTimer === 15) {
+                $('.imageZajawka').attr('src', imagesArray.first);
+                countSecTimer--
+            }
+            else if (countSecTimer === 10) {
+                $('.imageZajawka').attr('src', imagesArray.second);
+                countSecTimer--;
+            }
+            else if (countSecTimer === 5) {
+                $('.imageZajawka').attr('src', imagesArray.third);
+                countSecTimer--
+            }
+            else if (countSecTimer === 0
+            ) {
+                $('.imageZajawka').attr('src', imagesArray.fourth);
+                timerForSlider();
+            }
+            else {
+                countSecTimer--
+            }
+
+        }
+        , 1000);
 }
-
-intervalForSlider();
