@@ -6,7 +6,7 @@
 let imagesArray = {
     first: 'images/bags.jpg',
     second: 'images/cds.jpg',
-    third: 'images/cookie.jpg',
+    third: 'images/openshop-pano.jpg',
     fourth: 'images/smartphone.jpg'
 }
 
