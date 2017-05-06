@@ -448,14 +448,14 @@ h1.premiera {
     .zajawkanaglowek {
         font-size: 24px;
         font-weight: 500;
-        top: 7%;
+        top: 8%;
         color: white;
     }
 
     .zajawkaparagraf {
         font-size: 16px;
         font-weight: 400;
-        top: 16%;
+        top: 18%;
         color: white;
     }
 }
