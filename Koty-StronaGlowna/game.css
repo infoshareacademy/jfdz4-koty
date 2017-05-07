@@ -1,7 +1,7 @@
 .tlo {
     background-image: url('images/mapa1.jpg');
-    width: 850px;
-    height: 450px;
+    width: 450px;
+    height: 250px;
 }
 
 .sklep {
@@ -13,4 +13,8 @@
 
 td {
     border: 1px solid white;
+}
+
+.produkt {
+    background-color: white; color: black; font-size: 16px
 }
