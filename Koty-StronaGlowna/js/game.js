@@ -173,6 +173,68 @@ function creatingGame4() {
         $('#ilosczporownywarka').html(iloscporownywarka + " zł");
         $('img', 'td').remove();
         $('p', 'td').remove();
+        creatingGame5();
+    });
+};
+
+function creatingGame5() {
+    let wyniki = [];
+    for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
+        wyniki.push(i)
+    }
+    for (i = 0; i < wyniki.length; i += 1) {
+        let rand = wyniki[i + 1];
+        let cellForHome = $('td').eq(rand);
+        let randomcenaSuszarka = Suszarka.price + getRandomInt(0,200);
+        cellForHome.attr('price', randomcenaSuszarka);
+        cellForHome
+            .prepend('<img style="max-width: 20%; height: auto;" class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
+            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Suszarka.name + " " + randomcenaSuszarka + "zł" + '</p>');
+
+
+
+    }
+    $('td[price]').off('click').click(function() {
+        var randomcenaSuszarka = $(this).attr('price');
+        zakupy += parseInt(randomcenaSuszarka);
+        ilosckupionych++;
+        iloscporownywarka += Suszarka.price;
+        $('#zakupyzrobione').html(zakupy + " zł");
+        $('#ilosckupionych').html(ilosckupionych + " przedmioty!");
+        $('#ilosczporownywarka').html(iloscporownywarka + " zł");
+        $('img', 'td').remove();
+        $('p', 'td').remove();
+        creatingGame6();
+    });
+};
+
+function creatingGame6() {
+    let wyniki = [];
+    for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
+        wyniki.push(i)
+    }
+    for (i = 0; i < wyniki.length; i += 1) {
+        let rand = wyniki[i + 1];
+        let cellForHome = $('td').eq(rand);
+        let randomcenaSmartfon = Smartfon.price + getRandomInt(0,200);
+        cellForHome.attr('price', randomcenaSmartfon);
+        cellForHome
+            .prepend('<img style="max-width: 20%; height: auto;" class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
+            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Smartfon.name + " " + randomcenaSmartfon + "zł" + '</p>');
+
+
+
+    }
+    $('td[price]').off('click').click(function() {
+        var randomcenaSmartfon = $(this).attr('price');
+        zakupy += parseInt(randomcenaSmartfon);
+        ilosckupionych++;
+        iloscporownywarka += Smartfon.price;
+        $('#zakupyzrobione').html(zakupy + " zł");
+        $('#ilosckupionych').html(ilosckupionych + " przedmioty!");
+        $('#ilosczporownywarka').html(iloscporownywarka + " zł");
+        $('img', 'td').remove();
+        $('p', 'td').remove();
     });
 };
 
@@ -182,7 +244,7 @@ function timer() {
     let intervalForTimer = setInterval(function () {
         startTime()
     }, 1000);
-    let countSec = 800;
+    let countSec = 10;
     let divTimer = document.getElementById('timer');
     let pTimerEnd = document.getElementById('timerEnd');
 
