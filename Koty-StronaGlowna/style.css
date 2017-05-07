@@ -728,3 +728,8 @@ button.ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-
     white-space: nowrap;
     vertical-align: middle;
 }
+
+td {
+    text-align: center !important;
+    font-weight: 900;
+}
