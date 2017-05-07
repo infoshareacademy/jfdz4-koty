@@ -23,26 +23,26 @@ let imagesArray = {
 timerForSlider();
 
 function timerForSlider() {
-    let countSecTimer = 20;
+    let countSecTimer = 30;
     let intervalForSlider = setInterval(function () {
-            if (countSecTimer === 15) {
-                $('.imageZajawka').attr('src', imagesArray.first);
+            if (countSecTimer === 24) {
+                $('.imageZajawka').fadeOut('fast', function() {$('.imageZajawka').attr('src', imagesArray.first); $('.imageZajawka').fadeIn('fast');
                 countSecTimer--
-            }
-            else if (countSecTimer === 10) {
-                $('.imageZajawka').attr('src', imagesArray.second);
-                countSecTimer--;
-            }
+            })}
+            else if (countSecTimer === 16) {
+                $('.imageZajawka').fadeOut('fast', function() {$('.imageZajawka').attr('src', imagesArray.second); $('.imageZajawka').fadeIn('fast');
+                    countSecTimer--
+                })}
             else if (countSecTimer === 5) {
-                $('.imageZajawka').attr('src', imagesArray.third);
-                countSecTimer--
-            }
+                $('.imageZajawka').fadeOut('fast', function() {$('.imageZajawka').attr('src', imagesArray.third); $('.imageZajawka').fadeIn('fast');
+                    countSecTimer--
+                })}
             else if (countSecTimer === 0
             ) {
-                $('.imageZajawka').attr('src', imagesArray.fourth);
+                $('.imageZajawka').fadeOut('fast', function() {$('.imageZajawka').attr('src', imagesArray.fourth); $('.imageZajawka').fadeIn('fast');
                 clearInterval(intervalForSlider);
                 timerForSlider();
-            }
+            })}
             else {
                 countSecTimer--
             }
