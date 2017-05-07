@@ -737,4 +737,6 @@ td {
 
 #gameAgainButton {
     display : none;
+    margin:auto
+;
 }
