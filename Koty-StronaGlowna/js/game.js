@@ -69,7 +69,7 @@ for (i = getRandomInt(1, 4); i < 25; i += getRandomInt(1,8)) {
         cellForHome.attr('price', randomcenaOdkurzacz);
         cellForHome
             .prepend('<img style="max-width: 20%; height: auto;" class="house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
-            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Odkurzacz.name + " " + randomcenaOdkurzacz + "zł" + '</p>');
+            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + '<img src="images/1.jpg">' + " " + randomcenaOdkurzacz + "zł" + '</p>');
 
     }
     $('td[price]').off('click').click(function() {
@@ -97,7 +97,7 @@ function creatingGame2() {
         cellForHome.attr('price', randomcenaPralka);
         cellForHome
             .prepend('<img style="max-width: 20%; height: auto;" class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
-            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Pralka.name + " " + randomcenaPralka + "zł" + '</p>');
+            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + '<img src="images/2.jpg">' + " " + randomcenaPralka + "zł" + '</p>');
 
 
 
@@ -127,7 +127,7 @@ function creatingGame2() {
         cellForHome.attr('price', randomcenaDron);
         cellForHome
             .prepend('<img style="max-width: 20%; height: auto;" class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
-            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Dron.name + " " + randomcenaDron + "zł" + '</p>');
+            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + '<img src="images/3.jpg">' + " " + randomcenaDron + "zł" + '</p>');
 
 
 
@@ -158,7 +158,7 @@ function creatingGame4() {
         cellForHome.attr('price', randomcenaMikrofala);
         cellForHome
             .prepend('<img style="max-width: 20%; height: auto;" class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
-            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Mikrofala.name + " " + randomcenaMikrofala + "zł" + '</p>');
+            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + '<img src="images/4.jpg">' + " " + randomcenaMikrofala + "zł" + '</p>');
 
 
 
@@ -189,7 +189,7 @@ function creatingGame5() {
         cellForHome.attr('price', randomcenaSuszarka);
         cellForHome
             .prepend('<img style="max-width: 20%; height: auto;" class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
-            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Suszarka.name + " " + randomcenaSuszarka + "zł" + '</p>');
+            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + '<img src="images/5.jpg">' + " " + randomcenaSuszarka + "zł" + '</p>');
 
 
 
@@ -220,7 +220,7 @@ function creatingGame6() {
         cellForHome.attr('price', randomcenaSmartfon);
         cellForHome
             .prepend('<img style="max-width: 20%; height: auto;" class= "house" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map-icon-shop.svg/200px-Map-icon-shop.svg.png"/>')
-            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + Smartfon.name + " " + randomcenaSmartfon + "zł" + '</p>');
+            .prepend('<p style="background-color: white; border: 1px black solid; color: black; font-size: 16px">' + '<img src="images/6.jpg">' + " " + randomcenaSmartfon + "zł" + '</p>');
 
 
 
