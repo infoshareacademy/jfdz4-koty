@@ -734,3 +734,9 @@ td {
     text-align: center !important;
     font-weight: 900;
 }
+
+#gameAgainButton {
+    display : none;
+    margin:auto
+;
+}

@@ -1,5 +1,7 @@
 $("#gameFrame").dialog({autoOpen: false});
 
+countSec = 10;
+
 
 $("#buttonPremiera").click(function () {
     $('#gameStatistic').css('display', 'none');
@@ -235,6 +237,7 @@ function creatingGame6() {
         $('#ilosczporownywarka').html(iloscporownywarka + " zł");
         $('img', 'td').remove();
         $('p', 'td').remove();
+        countSec = 0;
     });
 };
 
@@ -244,23 +247,37 @@ function timer() {
     let intervalForTimer = setInterval(function () {
         startTime()
     }, 1000);
-    let countSec = 10;
+    countSec = 10;
     let divTimer = document.getElementById('timer');
     let pTimerEnd = document.getElementById('timerEnd');
 
     function startTime() {
+        pTimerEnd.textContent = "0:" + countSec;
         if (countSec === 0) {
             clearInterval(intervalForTimer);
             $('img', 'td').remove();
             $('p', 'td').remove();
             divTimer.style.display = 'none';
             pTimerEnd.textContent = 'Czas się skończył!'
+            $('#gameAgainButton').css('display', 'block')
+
 
         } else {
             countSec--;
         }
 
-        divTimer.innerHTML = "0:" + countSec;
     }
 
 };
+
+$('#gameAgainButton').click(function () {
+    zakupy = 0;
+    ilosckupionych = 0;
+    iloscporownywarka = 0;
+    $('#zakupyzrobione').html(zakupy + " zł");
+    $('#ilosckupionych').html(ilosckupionych + " przedmiot!");
+    $('#ilosczporownywarka').html(iloscporownywarka + " zł");
+    creatingGame();
+    timer();
+    $('#gameAgainButton').css('display', 'none');
+});
