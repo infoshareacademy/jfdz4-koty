@@ -719,7 +719,7 @@ button.ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-
     background-color: #337ab7;
     border: 1px solid #2e6da4;;
     border-radius: 4px;
-    display: inline-block;
+    display: block;
     padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
