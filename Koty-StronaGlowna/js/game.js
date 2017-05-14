@@ -7,12 +7,7 @@ $("#buttonPremiera").click(function () {
     $('#gameStatistic').css('display', 'none');
     $("#gameFrame").dialog("open").css('width', '840').css('background-color', '#21324f').css('border', '2px solid black');
     $("div[role='dialog']").css('left', "20%");
-    $('#overlayExplosion').fadeIn(() => {
-        setTimeout(function () {
-            $('#overlayExplosion').fadeOut()
-        }, 1200)
     });
-});
 
 $('#gameStartButton').click(() => {
 creatingGame();
