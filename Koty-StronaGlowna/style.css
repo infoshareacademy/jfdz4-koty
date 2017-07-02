@@ -740,3 +740,8 @@ td {
     margin:auto
 ;
 }
+
+li.oTytulowe {
+    border: 2px solid #FF7D00;
+    border-radius: 4px;
+    }
